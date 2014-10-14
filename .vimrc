@@ -8,6 +8,7 @@ set background=dark
 set number
 set incsearch
 set nopaste
+set ignorecase
 set autoindent
 "set lazyredraw
 set fileformats=unix,dos

@@ -3,6 +3,7 @@ set softtabstop=4
 set shiftwidth=4
 set laststatus=2
 set autochdir
+set scrolloff=5
 set expandtab
 set background=dark
 set number
@@ -25,6 +26,17 @@ let g:molokai_original = 1
 highlight StatusLine ctermbg=white ctermfg=darkgrey
 highlight LineNr ctermfg=darkgrey
 
+"
+" minibufexpl.vim settings
+" .vim/plugins/minibufexpl.vim
+"
+" let g:miniBufExplModSelTarget = 1
+" let g:miniBufExplModSelTarget = 0
+" let g:miniBufExplUseSingleClick = 1
+" let g:miniBufExplMapWindowNavVim = 1
+" let g:miniBufExplVSplit = 35
+" let g:miniBufExplSplitBelow=1
+"
 " Browser
 command NT NERDTree
 
@@ -34,18 +46,12 @@ nnoremap <leader>platform :cd ~/adicio/projects/platform/current<CR>
 nnoremap <leader>cc6 :cd ~/adicio/projects/cc6/current<CR>
 nnoremap <leader>adicio6 :cd ~/adicio/projects/adicio/current<CR>
 
+" Buffer jumps
+map . :bn<CR>
+map , :bp<CR>
+
 " Ctrl-Space clears search highlight
 nnoremap <silent> <c-space> :nohl<CR>
-
-""""""""""""""""""""""""""""""
-" minibuf settings 
-""""""""""""""""""""""""""""""
-let g:miniBufExplModSelTarget = 1 
-let g:miniBufExplModSelTarget = 0 
-let g:miniBufExplUseSingleClick = 1 
-let g:miniBufExplMapWindowNavVim = 1 
-let g:miniBufExplVSplit = 35
-let g:miniBufExplSplitBelow=1
 
 """"""""""""""""""""""""""""""
 " airline
@@ -60,5 +66,22 @@ let g:airline#extensions#tabline#enabled = 1
 noremap <leader>pd :call PhpDoc()<CR>
 map <C-p> :call PhpDoc()<CR>
 
+" Ctrl-L removes highlighted text
+map <C-l> :nohl<CR>
+
+" Ctrl-J/K will move up and down by 5 lines
+map <C-j> 5j
+map <C-k> 5k
+
+" Search results appear in the center of the screen
+nnoremap n nzz
+nnoremap N Nzz
+nnoremap * *zz
+nnoremap # #zz
+nnoremap g* g*zz
+nnoremap g# g#zz
+nnoremap <C-f> <C-f>zz
+nnoremap <C-b> <C-b>zz
+ 
 " PHP Syntax check
-map <C-l> :!php -l %<CR>
+autocmd BufWritePost *.php !php -d display_errors=on -l <afile>

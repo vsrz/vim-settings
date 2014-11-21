@@ -47,11 +47,16 @@ nnoremap <leader>cc6 :cd ~/adicio/projects/cc6/current<CR>
 nnoremap <leader>adicio6 :cd ~/adicio/projects/adicio/current<CR>
 
 " Buffer jumps
-map . :bn<CR>
-map , :bp<CR>
+map ] :bn<CR>
+map [ :bp<CR>
 
 " Ctrl-Space clears search highlight
 nnoremap <silent> <c-space> :nohl<CR>
+
+""""""""""""""""""""""""""""""
+" neocomplcache - code autocompletion
+"""
+let g:neocomplcache_enable_at_startup = 1
 
 """"""""""""""""""""""""""""""
 " airline

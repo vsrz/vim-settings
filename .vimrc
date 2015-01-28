@@ -25,7 +25,7 @@ set t_Co=256
 let g:molokai_original = 1
 highlight StatusLine ctermbg=white ctermfg=darkgrey
 highlight LineNr ctermfg=darkgrey
-
+colorscheme molokai
 "
 " minibufexpl.vim settings
 " .vim/plugins/minibufexpl.vim

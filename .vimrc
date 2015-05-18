@@ -56,7 +56,7 @@ nnoremap <silent> <c-space> :nohl<CR>
 """"""""""""""""""""""""""""""
 " neocomplcache - code autocompletion
 """
-let g:neocomplcache_enable_at_startup = 1
+"let g:neocomplcache_enable_at_startup = 1
 
 """"""""""""""""""""""""""""""
 " airline

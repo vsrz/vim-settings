@@ -51,7 +51,7 @@ map ] :bn<CR>
 map [ :bp<CR>
 
 " Ctrl-Space clears search highlight
-nnoremap <silent> <c-space> :nohl<CR>
+nnoremap <silent> <c-space> :set nonu<CR>
 
 """"""""""""""""""""""""""""""
 " neocomplcache - code autocompletion

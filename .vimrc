@@ -10,7 +10,8 @@ set incsearch
 set nopaste
 set ignorecase
 set autoindent
-set clipboard=unnamedplus
+"set clipboard=unnamedplus
+set clipboard=unnamed
 "set lazyredraw
 set fileformats=unix,dos
 set comments=sr:/*,mb:*,ex:*/
@@ -40,15 +41,12 @@ colorscheme molokai
 " Browser
 command NT NERDTree
 
-" CWD Jumps
-nnoremap <leader>cc7 :cd ~/adicio/projects/cc7/current<CR>
-nnoremap <leader>platform :cd ~/adicio/projects/platform/current<CR>
-nnoremap <leader>cc6 :cd ~/adicio/projects/cc6/current<CR>
-nnoremap <leader>adicio6 :cd ~/adicio/projects/adicio/current<CR>
-
 " Buffer jumps
 map ] :bn<CR>
 map [ :bp<CR>
+
+" Set filetype to bash
+map \ :set ft=sh<CR>
 
 " Ctrl-Space clears search highlight
 nnoremap <silent> <c-space> :set nonu<CR>
@@ -69,7 +67,7 @@ let g:airline#extensions#tabline#enabled = 1
 
 " PHP-Doc
 noremap <leader>pd :call PhpDoc()<CR>
-map <C-p> :call PhpDoc()<CR>
+"map <C-p> :call PhpDoc()<CR>
 
 " Ctrl-L removes highlighted text
 map <C-l> :nohl<CR>
@@ -90,3 +88,9 @@ nnoremap <C-b> <C-b>zz
  
 " PHP Syntax check
 autocmd BufWritePost *.php !php -d display_errors=on -l <afile>
+
+function! Chgref()
+    r~/.vim/blocks/chgref.txt
+endfunction
+
+nmap <C-p> :call Chgref()<CR>

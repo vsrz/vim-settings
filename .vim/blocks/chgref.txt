@@ -4,11 +4,10 @@
 
 ### DESCRIPTION
 
-## High Level steps
-
 ### TEST PLAN
 
 ### CHANGE PLAN
+## High Level steps
 
 ### VALIDATION PLAN
 

@@ -1,5 +1,6 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_cnt =4
 let g:netrw_dirhist_1='/mnt/jvillegas/Box Sync/Jeremy Villegas/work'
 let g:netrw_dirhist_2='/mnt/jvillegas/Box Sync/Jeremy Villegas'
 let g:netrw_dirhist_3='/Users/jeremy.villegas/Documents/git/OmegaRPG/Omega/src'
+let g:netrw_dirhist_4='/Users/jeremy.villegas/Documents/git/playground/script'

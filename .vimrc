@@ -1,106 +1,108 @@
-set tabstop=4
-set softtabstop=4
-set shiftwidth=4
-set laststatus=2
-set autochdir
-set scrolloff=5
-set expandtab
-set number
-set incsearch
-set nopaste
-set ignorecase
-set autoindent
-set backspace=indent,start,eol
-set guifont=Monaco:h13
-set list
-"set clipboard=unnamedplus
+
+set encoding=utf-8 
+
+" Numbered lines
+set nu
+
+" Clipboard integration
 set clipboard=unnamed
-"set lazyredraw
-set fileformats=unix,dos
-set comments=sr:/*,mb:*,ex:*/
+
+" Highlight current line
+set cursorline
+
+" Relative line numbering
+" set rnu
+
+" Show line endings and tab characters
+set nolist
+
+au BufNewFile,BufRead *.py
+    \ set tabstop=4
+    \ set softtabstop=4
+    \ set shiftwidth=4
+    \ set textwidth=79
+    \ set expandtab
+    \ set autoindent
+    \ set fileformat=unix
+au BufNewFile,BufRead *.js, *.html, *.css
+    \ set tabstop=2
+    \ set softtabstop=2
+    \ set shiftwidth=2
+
+set nocompatible              " required
+filetype off                  " required
+
+" set the runtime path to include Vundle and initialize
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+
+" alternatively, pass a path where Vundle should install plugins
+"call vundle#begin('~/some/path/here')
+
+" let Vundle manage Vundle, required
+Plugin 'gmarik/Vundle.vim'
+
+" add all your plugins here (note older versions of Vundle
+" used Bundle instead of Plugin)
+
+" ...
+
+" All of your Plugins must be added before the following line
+call vundle#end()            " required
+filetype plugin indent on    " required
+
+""" PLUGINS
+" Powerline
+Plugin 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'}
+
+" Git integration
+Plugin 'tpope/vim-fugitive'
+
+" NerdTREE for file browsing
+Plugin 'scrooloose/nerdtree'
+
+" CTRL-P Search
+Plugin 'kien/ctrlp.vim'
+
+" Fold code with space
+Plugin 'tmhedberg/SimpylFold'
+set foldmethod=indent
+set foldlevel=99
+nnoremap <space> za
+
+" Auto indent python
+Plugin 'vim-scripts/indentpython.vim'
+
+" Python automcomplete
+Bundle 'Valloric/YouCompleteMe'
+
+" Syntax highlighting
+Plugin 'vim-syntastic/syntastic'
+
+" Pep 8 checking
+Plugin 'nvie/vim-flake8'
+
+" Python syntax highlighting
+let python_highlight_all=1
 syntax on
-filetype on
-filetype plugin on
-autocmd FileType php noremap &lt;C-L&gt; :!/usr/bin/env php -l %&lt;CR&gt;
-set t_Co=256
 
-" Colors
-"let g:slate = 1
-"let g:molokai_original = 1
-highlight StatusLine ctermbg=white ctermfg=darkgrey
-"highlight LineNr ctermfg=darkgrey
-"colorscheme evening
-colorscheme molokai
-"
-" minibufexpl.vim settings
-" .vim/plugins/minibufexpl.vim
-"
-" let g:miniBufExplModSelTarget = 1
-" let g:miniBufExplModSelTarget = 0
-" let g:miniBufExplUseSingleClick = 1
-" let g:miniBufExplMapWindowNavVim = 1
-" let g:miniBufExplVSplit = 35
-" let g:miniBufExplSplitBelow=1
-"
-" Browser
-command NT NERDTree
+" navigate between splits
+nnoremap <C-J> <C-W><C-J>
+nnoremap <C-K> <C-W><C-K>
+nnoremap <C-L> <C-W><C-L>
+nnoremap <C-H> <C-W><C-H>
 
-" Buffer jumps
-map ] :w<CR>:bn<CR>
-map [ :w<CR>:bp<CR>
-map \ :w<CR>:bd<CR>
+" Flagging whitespace
+au BufRead,BufNewFile *.py,*.pyw,*.c,*.h match BadWhitespace /\s\+$/
 
-" Set filetype to bash
-"map \ :set ft=sh<CR>
+" Color scheming, use F5 to switch between light and dark
+Plugin 'jnurmine/Zenburn'
+Plugin 'altercation/vim-colors-solarized'
+if has('gui_running')
+  set background=dark
+  colorscheme solarized
+else
+  colorscheme zenburn
+endif
+call togglebg#map("<F5>")
 
-" Ctrl-Space clears search highlight
-nnoremap <silent> <c-space> :set nonu<CR>
-
-""""""""""""""""""""""""""""""
-" neocomplcache - code autocompletion
-"""
-"let g:neocomplcache_enable_at_startup = 1
-
-""""""""""""""""""""""""""""""
-" airline
-""""""""""""""""""""""""""""""
-let g:airline_theme             = 'powerlineish'
-let g:airline_enable_branch     = 1
-let g:airline_enable_syntastic  = 1
-let g:airline_powerline_fonts = 1
-let g:airline#extensions#tabline#enabled = 1
-
-" PHP-Doc
-noremap <leader>pd :call PhpDoc()<CR>
-"map <C-p> :call PhpDoc()<CR>
-
-" Ctrl-L removes highlighted text
-map <C-l> :nohl<CR>
-
-" Ctrl-J/K will move up and down by 5 lines
-map <C-j> 5j
-map <C-k> 5k
-
-" Search results appear in the center of the screen
-nnoremap n nzz
-nnoremap N Nzz
-nnoremap * *zz
-nnoremap # #zz
-nnoremap g* g*zz
-nnoremap g# g#zz
-nnoremap <C-f> <C-f>zz
-nnoremap <C-b> <C-b>zz
- 
-" PHP Syntax check
-autocmd BufWritePost *.php !php -d display_errors=on -l <afile>
-
-function! Chgref()
-    r~/.vim/blocks/chgref.txt
-endfunction
-
-function! BlockSection()
-    r~/.vim/blocks/section.txt
-endfunction
-
-nmap <C-i> :call Chgref()<CR>
-nmap <C-l> :call BlockSection()<CR>

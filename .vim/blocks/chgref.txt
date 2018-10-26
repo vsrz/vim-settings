@@ -1,13 +1,20 @@
 
-
 ### SHORT DESCRIPTION
 
+
 ### DESCRIPTION
+
+Purpose:
+
+Action Plan:
+
+Expected Service Impact:
+
 
 ### TEST PLAN
 
 ### CHANGE PLAN
-## High Level steps
+## Plan summary
 
 ### VALIDATION PLAN
 

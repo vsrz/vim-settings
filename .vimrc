@@ -1,5 +1,16 @@
 
+set tabstop=4
+set softtabstop=4
+set shiftwidth=4
+set textwidth=79
+set expandtab
+set autoindent
+set fileformat=unix
 set encoding=utf-8 
+set showtabline=2
+
+" Begin scrolling the screen lines prior to the edge
+set scrolloff=5
 
 " Numbered lines
 set nu
@@ -12,23 +23,19 @@ set cursorline
 
 " Relative line numbering
 " set rnu
-
 " Show line endings and tab characters
 set nolist
 
-au BufNewFile,BufRead *.py
-    \ set tabstop=4
-    \ set softtabstop=4
-    \ set shiftwidth=4
-    \ set textwidth=79
-    \ set expandtab
-    \ set autoindent
-    \ set fileformat=unix
+" Change the working directory based on the current open file
+set autochdir
+
+
 au BufNewFile,BufRead *.js, *.html, *.css
     \ set tabstop=2
     \ set softtabstop=2
     \ set shiftwidth=2
 
+set guifont=Monaco:h12
 set nocompatible              " required
 filetype off                  " required
 
@@ -92,8 +99,10 @@ nnoremap <C-K> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
 
-" Flagging whitespace
-au BufRead,BufNewFile *.py,*.pyw,*.c,*.h match BadWhitespace /\s\+$/
+" navigate between buffers
+nnoremap ] :bnext<CR>
+nnoremap [ :bprevious<CR>
+nnoremap \ :CtrlPBuffer<CR>
 
 " Color scheming, use F5 to switch between light and dark
 Plugin 'jnurmine/Zenburn'
@@ -104,5 +113,7 @@ if has('gui_running')
 else
   colorscheme zenburn
 endif
+colorscheme molokai
+" colorscheme macvim
 call togglebg#map("<F5>")
 

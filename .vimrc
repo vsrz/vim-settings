@@ -10,6 +10,8 @@ set incsearch
 set nopaste
 set ignorecase
 set autoindent
+set backspace=indent,start,eol
+set list
 "set clipboard=unnamedplus
 set clipboard=unnamed
 "set lazyredraw
@@ -26,6 +28,7 @@ set t_Co=256
 "let g:molokai_original = 1
 highlight StatusLine ctermbg=white ctermfg=darkgrey
 "highlight LineNr ctermfg=darkgrey
+"colorscheme evening
 colorscheme molokai
 "
 " minibufexpl.vim settings
@@ -42,11 +45,12 @@ colorscheme molokai
 command NT NERDTree
 
 " Buffer jumps
-map ] :bn<CR>
-map [ :bp<CR>
+map ] :w<CR>:bn<CR>
+map [ :w<CR>:bp<CR>
+map \ :w<CR>:bd<CR>
 
 " Set filetype to bash
-map \ :set ft=sh<CR>
+"map \ :set ft=sh<CR>
 
 " Ctrl-Space clears search highlight
 nnoremap <silent> <c-space> :set nonu<CR>
@@ -89,9 +93,13 @@ nnoremap <C-b> <C-b>zz
 " PHP Syntax check
 autocmd BufWritePost *.php !php -d display_errors=on -l <afile>
 
-" ServiceNow CHG ticket block
 function! Chgref()
     r~/.vim/blocks/chgref.txt
 endfunction
 
+function! BlockSection()
+    r~/.vim/blocks/section.txt
+endfunction
+
 nmap <C-p> :call Chgref()<CR>
+nmap <C-l> :call BlockSection()<CR>

@@ -11,6 +11,7 @@ set nopaste
 set ignorecase
 set autoindent
 set backspace=indent,start,eol
+set guifont=Monaco:h13
 set list
 "set clipboard=unnamedplus
 set clipboard=unnamed
@@ -101,5 +102,5 @@ function! BlockSection()
     r~/.vim/blocks/section.txt
 endfunction
 
-nmap <C-p> :call Chgref()<CR>
+nmap <C-i> :call Chgref()<CR>
 nmap <C-l> :call BlockSection()<CR>

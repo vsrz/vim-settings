@@ -89,6 +89,7 @@ nnoremap <C-b> <C-b>zz
 " PHP Syntax check
 autocmd BufWritePost *.php !php -d display_errors=on -l <afile>
 
+" ServiceNow CHG ticket block
 function! Chgref()
     r~/.vim/blocks/chgref.txt
 endfunction

@@ -8,541 +8,1259 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/getAutoSecurely
+~MSle0~/kpn
+
+# Last Substitute Search Pattern:
+~MSle0&<NEW_DB_MYSQL_CI>
 
 # Last Substitute String:
-$
+$MySQL Server@db164021.sjc6.service-now.com:3400
 
 # Command Line History (newest to oldest):
 :q
 :w
-:15
-:w!
-:!p4 edit %
-:set paste
-:wq
-:ls
-:l
-:e om/BaseAutosPeer.php
-:q!
-:Q
-:E h
-:pwd
-:250
-:10
-:Wq
-:wq!
-:setAccount
-:setAccountPer
-:set
-:NT
-:e Cc7C
-:bdelete
-:e lib/AdicioUser.class.php
-:e ../templates/indexSuccess.php
-:e ../templates/idn
-:e actions.class.php
-:s
-:e loadLogs.bash
+:e .
 :bd
-:so %
-:so
-:qw
-:NeoComplCacheEnable
-:!php rev.php
-:!clear
-:clear
-:php rev.php
-:4
+:s
+:W
+:"w
+:E .
+:e 
 :set nonu
-:39
-:Set nonu
-:qwq
-:w`
-:set syntax=php
-:set syntax=bash
-:set s
-:ss
-:ss php
+:nonu
+:wq
+:q!
+:e :bd
+:e
+:'<,'>e .
+:b9
+:ls
+:bd[:w
+:.,.+22e .
+:!
+:w:e .
+:[:w
+:b
+:%s/<NEW_DB_MYSQL_CI>/MySQL Server@db164021.sjc6.service-now.com:3400/g
+:%s/<NEW_DB_PORT>/3400/g
+:%s/<NEW_DB>/db164021.sjc6.service-now.com/g
+:%s/3400/3401/g
+:%s/xeroxmsp/rtsanswers/g
+:bd!
+:Bd
+:g
+:%s/db160230.sjc5/db163087.sjc4/g
+:e ~/.vimrc
+:w!
+:802
+:887
+::w
+:bn
+:we
+:wk
+:%s/jvillegas_ibmnvsprod/jvillegas/g
+:%s/jvillegas_ibmnvsacc/jvillegas/g
+:%s/^\*/#/g
+:bd164
+:bd163
+:%s/\ 3\:48//g
+:%s/mysqld_voya/mysqld
+:%s/3403/3550/g
+:w empjvillegas
 
 # Search String History (newest to oldest):
-?/getAutoSecurely
-?/function getAutoSecurelyu
-?/getautoSecurely
-?/executeEdit
-?/results
-?/searcdh
-?/executeSearch
-?/getVerticalName
-?/CONTENT
-?/Pending Content
-?/Penm
-?/ADMIN_STATUS_PENDING_CONTENT
-?/pending content approval
+?/kpn
+?/check
+?/Done
+?/replication ch
+?/?
+? \<Sparc001\>
+?/sparc
+?/tungsten
+?/kpntemp
+?/<SBY_PORT>
+?/<PRI_PORT
+? \<db36094\.iad2\.service\>
+??large
+?/install
+?/mysql
+? \<sparc_1\>
+?/instance
+?/db164106.sjc5
+?/_SEC
+?/db_port_
+?/converge
+?/standalone
+?/done
+?/replication
+?/kpn_1
+?/kpn_
+?/`
+?/<REPL
+?/fail-
+??FAIL
+?/database
+?/fail-live.
 ?/checkout
-?/blocking
-?/Blocking
-?/ClassifiedContentFilterTerms
-?/Of course
-? \<ADMIN_STATUS_PENDING_CONTENT_APPROVAL\>
-?/hasIssuesBlo
-?/sitemanager
-? \<trigger_error\>
-?/executeSchedule
-?/\(.*\%#\)\@!\_^\s*\zs\(\(abstract\s\+\|final\s\+\|private\s\+\|protected\s\+\|public\s\+\|static\s\+\)*function\|\(abstract\s\+\|final\s\+\)*class\|interface\)/
-?/setAccount
-?/setAccountPermissions
-?/reloadAccount
-?/credentials
-?/credential
-?/access
-?/careersngs
-?/permissions
-?/permission
-?/lib/model/Accounts.php
-?/permiss
-?/lib/cc7Common.class.php
-?/haspermission
-?/hasPermi
-?/pre
-?/hasPermission
-?/credetnail
-?/hasCredential
-?/haspermis
-?/hascredenti
-?/hasCrede
-?/getUser()
-?/canno
-?/sql
-?/Purchase Confirm
-?/receipt
+?/tun
+?/yaho
+?/glide/temp/jvillegas
+?/Copy
+?/PRI_PORT
+?/<SBY
+?/SBY
+?/yahoo
+?/valid
+?/caught up
+??kpn
+?/db55
+?/5509
+?/decompres
+?/Risk
+?/validation
+??CHANGE PLAN
 
 # Expression History (newest to oldest):
 
 # Input Line History (newest to oldest):
+@/Users/jeremy.villegas/Box Sync/Jeremy Villegas/work/ibmihgprod_CHG1917050/ibmihgprod.sh
+@/Users/jeremy.villegas/Box Sync/Jeremy Villegas/work/kpntemp_CHG1916585/kpntemp.sh
+@/Users/jeremy.villegas/Box Sync/Jeremy Villegas/work/kpn_CHG1911831/kpn.sh
+@/Users/jeremy.villegas/Box Sync/Jeremy Villegas/work/yahoo_CHG1907332/yahoo.sh
+@/Users/jeremy.villegas/Box Sync/Jeremy Villegas/work/yahoo_CHG1907201/yahoo.sh
+@/Users/jeremy.villegas/Box Sync/Jeremy Villegas/work/fermi_CHG1898164/fermi.sh
+@/Users/jeremy.villegas/Box Sync/Jeremy Villegas/work/jnjqa2_CHG1905784/jnjqa2.sh
+@/Users/jeremy.villegas/Box Sync/Jeremy Villegas/work/kpn_CHG1901513/kpn.sh
+@/Users/jeremy.villegas/Box Sync/Jeremy Villegas/work/jnjprod_CHG1874871/jnjprod.sh
+@/Users/jeremy.villegas/Box Sync/Jeremy Villegas/work/jnjprod_CHG1874870/jnjprod.sh
+@/Users/jeremy.villegas/Box Sync/Jeremy Villegas/work/jnjqa2_CHG1874766/jnjqa2.sh
+@/Users/jeremy.villegas/Box Sync/Jeremy Villegas/work/jnjqa2_CHG1870709/jnjqa2.sh
+@/Users/jeremy.villegas/Box Sync/Jeremy Villegas/work/fermi_CHG1936651/fermi.sh
+@/Users/jeremy.villegas/Box Sync/Jeremy Villegas/work/eydevreporting_CHG1865375/eydevreporting.sh
+@/Users/jeremy.villegas/Box Sync/Jeremy Villegas/work/oarnetdev_INT2742313/oarnetdev.sh
+@/Users/jeremy.villegas/Box Sync/Jeremy Villegas/work/dividerprod_INT2742314/dividerprod.sh
+@/Users/jeremy.villegas/Box Sync/Jeremy Villegas/work/nmhs_INT2742312/nmhs.sh
+@/Users/jeremy.villegas/Box Sync/Jeremy Villegas/work/eyreporting_CHG1863955/eyreporting.sh
+@/Users/jeremy.villegas/Box Sync/Jeremy Villegas/work/microsoft_CHG1864331/microsoft.sh
+@/Users/jeremy.villegas/work
+@/Users/jeremy.villegas/Box Sync/Jeremy Villegas/work/velocity_CHG1861614/velocity.sh
+@/Users/jeremy.villegas/Box Sync/Jeremy Villegas/work/microsoft_CHG1861978/microsoft.sh
+@/Users/jeremy.villegas/Box Sync/Jeremy Villegas/work/microsoftload_CHG1861926/microsoftload.sh
+@/Users/jeremy.villegas/Box Sync/Jeremy Villegas/work/kpn_CHG1861715/kpn.sh
+@/Users/jeremy.villegas/Box Sync/Jeremy Villegas/work/hrapp_CHG1860060/hrapp.sh
+@/Users/jeremy.villegas/Box Sync/Jeremy Villegas/work/thomsonreuters_CHG1845846/thomsonreuters.sh
+@/Users/jeremy.villegas/Box Sync/Jeremy Villegas/work/stagingglobo_CHG1854984/stagingglobo.sh
+@/Users/jeremy.villegas/Box Sync/Jeremy Villegas/work/stagingglobo_stagingglobo
+@/Users/jeremy.villegas/Box Sync/Jeremy Villegas/work/xeroxmsp_CHG1859761/xeroxmsp.sh
+@/Users/jeremy.villegas/Box Sync/Jeremy Villegas/work/rtsanswers_CHG1859757/rtsanswers.sh
+@/Users/jeremy.villegas/Box Sync/Jeremy Villegas/work/jnjprod_CHG1845527/jnjprod.sh
+@/Users/jeremy.villegas/Box Sync/Jeremy Villegas/prop.sh
+@/Users/jeremy.villegas/Box Sync/Jeremy Villegas/work/jnjqa2_CHG/jnjqa2.sh
+@/Users/jeremy.villegas/Box Sync/Jeremy Villegas/work/jnjqa2_CHG
+@/Users/jeremy.villegas/Box Sync/Jeremy Villegas/work/
+@/Users/jeremy.villegas/Box Sync/Jeremy Villegas/work/ciscoamp_CHG1847850/ciscoamp_retire.sh
+@/Users/jeremy.villegas/Box Sync/Jeremy Villegas/work/ciscoamp_CHG1847632/ciscoamp.sh
+@/Users/jeremy.villegas/Box Sync/Jeremy Villegas/work/telstrassfprod_CHG1846879/telstrassfprod.sh
+@/Users/jeremy.villegas/Box Sync/Jeremy Villegas/work/telstrassfprod_CHG1846851/telstrassfprod.sh
+@/Users/jeremy.villegas/Box Sync/Jeremy Villegas/work/kpn_CHG1845278/kpn.sh
+@/Users/jeremy.villegas/Box Sync/Jeremy Villegas/work/cssnow_CHG1839800/cssnow.sh
+@/Users/jeremy.villegas/Box Sync/Jeremy Villegas/work/servicecafe_CHG1838371/servicecafe.sh
+@/Users/jeremy.villegas/Box Sync/Jeremy Villegas/work/servicecafe-
+@/Users/jeremy.villegas/Box Sync/Jeremy Villegas/work/servicematters_CHG1837110/matters.sh
+@/Users/jeremy.villegas/Box Sync/Jeremy Villegas/work/orifarm_CHG1827153/orifarm.sh
+@/Users/jeremy.villegas/Box Sync/Jeremy Villegas/work/voya_CHG1822789/voya.sh
+@/Users/jeremy.villegas/Box Sync/Jeremy Villegas/work/viforval_CHG1820751/viforval.sh
+@/Users/jeremy.villegas/Box Sync/Jeremy Villegas/work/mercurystg_CHG1820722/mercurystg.sh
+@/Users/jeremy.villegas/Box Sync/Jeremy Villegas/work/mercurystg_CHG1820353/mercurystg.sh
+@/Users/jeremy.villegas/Box Sync/Jeremy Villegas/work/viforval_CHG1820125/viforval.sh
 
 # Input Line History (newest to oldest):
 
 # Registers:
-"0	LINE	0
-	log_error "The application quit unexpectedly"
-"1	LINE	0
-	repltest();
-"2	LINE	0
-	hextest();
-"3	LINE	0
+""0	LINE	0
+	### SHORT DESCRIPTION
 	
+	### DESCRIPTION
+	
+	### TEST PLAN
+	
+	### CHANGE PLAN
+	
+	### VALIDATION PLAN
+	
+	### BACKOUT PLAN
+	
+	### RISK ASSESSMENT
+	If the change fails, what is the worst case impact to external customers? None
+	
+	If the change fails, what is the worst case impact to internal customers? None
+	
+	How does this change impact monitoring or alerts? No impact
+	
+	Are there any scheduling conflicts with any planned changes? No
+	
+	
+	
+	
+"1	LINE	0
+	Reseed KB fixed
+	    https://datacenter.service-now.com/kb_view_customer.do?sysparm_article=KB11661
+"2	LINE	0
+	make comment in SOP by default to use use 20GB when performing snow restore
+"3	LINE	0
+	make comment in SOP by default to use use 20GB when performing snow restore
 "4	LINE	0
-	    echo -n "[`date +%Y/%m/%d\ %H:%M:%S`] "
+	    CHG1870709 - iqoq instance migration migration for jnjqa2
+	    CHG1874851 - db server qualification - standby
+	    CHG1881004 - jnjqa2 reseed round two
 "5	LINE	0
-	    echo -n "[`date +%Y/%m/%d\ %H:%M:%S`] "
-"6	LINE	0
-	set -x
+	jnjprod -
+	    CHG1874870 - jnjprod RR#1 IQOQ
+	    CHG1874871 - jnjprod RR#2 IQOQ
+	    CHG1875934 - jnjprod instance migration
 "7	LINE	0
-	inarraytest();
+	
 "8	LINE	0
-	$codesForFraud = array(125 , 126 , 128);
+	CHG1907332 - Yahoo Manual move
 "9	LINE	0
-	truetest();
+	## >>> 
+"a	CHAR	0
+	f_ly$$A puwwhD
 "e	CHAR	0
 	lhdedldldlivaluehhhhidata-id="0" hhhhhhhhhhhj
+"f	CHAR	0
+	;
+"g	CHAR	0
+	
 "i	CHAR	0
 	 udedededldlilhl
+"j	CHAR	0
+	jkj
+"m	CHAR	0
+	1738
+<w`q}}}}}`wjjjjjjkwlwlllllllllllll€ýc€ýblldeivoya_3404hhjhhhhhhhhhhhhcwvoya_3403€ýc€ýbkhh.jw/jnj.n.n.kkkk:w€ýc€ýbkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjyy€ýc€ýbgg}}}}}jjjjjjjV}}}}y€ýc€ýb```w{{{{{{jjjjjjjjjjjjjjjjjjjjjjkmwyy€ýc€ýbjyy	yy€ýc€ýbjyVjy€ýc€ýbjjjkVjy€ýc€ýbl€ýc€ýbllllllllllllilvl0/jhhhilvl0/kyyVjy€ýc€ýb€ýc€ýbj$hhhhhhhhhhhhhhhhhhhhhhhhhhhlllllllli??yy€ýc€ýb€ýc€ýb€ýc€ýb€ýc€ýb€ýc€ýbkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjhli_PRIyyVjjy€ýc€ýb}}}}}}}}}}}}}}{{kkkyy€ýc€ýb$klllllllllllllh€ýc€ýbjjjjjjjjjjjjjllllllllllllllllROLD€ýc€ýbhhhhhhhhhhhhhhhhhhhhhll€ýc€ýbkkyy€ýc€ýbjyy€ýc€ýbjlllllllllllllllllxxxiLOGkkwll€ýc€ýb€ýc€ýb```qV}}}}}{y€ýc€ýb`wjjjjjjkyy€ýc€ýbkkkkkyy€ýc€ýbjjjjjjjjjyy€ýc€ýbkkkyy€ýc€ýbjjjjyy€ýc€ýb`qV}}}}y€ýc€ýb€ýc€ýb€ýc€ýb}GkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjkjjjjjjyyVjjy€ýc€ýb€ýc€ýbjjjjjjjkkllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll$hhhhdei€ýc€ýb€kr393;€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kb€kb€kb€kb€kb€kb€ýc€ýb€KC€KC€KC€KC€KH€KK€kd€kd€ýc€ýbm€kbmw`qV}}}}y€ýc€ýbG{{}}kkkkkkkkkkkjjjkllllllllllllllllllllllll`qjjkjllllllllllllllllljjjkk````jkkjjjlyE``jjjjjkkkkkwwPkddO# now replicate from new r€kbp€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kbit€kb€kbtion on€kb€kbnew primary, f€kbrep from the s ec€kl€kl€kDjllllllllllllllde....llllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllhh€ýc€ýbkkkkkkkkkkkkkVjjy€ýc€ýbjjjjjjjjjjjjj$hhhhdei504€kb€kb€kb€kr504;€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kb€kb€kb€kb€kb€kb000005€ýc€ýb€ýc€ýb:wVjy€ýc€ýbkkkVjy€ýc€ýb:v
 "n	CHAR	0
 	
 "q	CHAR	0
-	jjjjjj
+	wwyEOjmp pA.service-now.comkkWWWyEf?llllPlxxxx
 "r	CHAR	0
 	i data-id="0"/<td>el
+"u	CHAR	0
+	2524
+<aquintiles_3400jhbhhuujODB_SIZE=xxlargejjkOddjjkkkkuuukkOAPP_INSTANCE=quintilesjcw${APP_INSTANCA€kbE}_3400:wjjjjjjkjjjjjjjjkkkkkkkkkkllllllllcw/glide/mysqld/ldexxjhhjbhhdecw€kD/glide/mysqld/d€kbuuuuuuujjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjkkkjjjjkjkkkjjjjkkkkkkkkkkkkkkkkkkkkkkkkkjO#€ü Copy StepkkkkkkkkkkkkkkkkkkkkkkkkkujjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkjV}}xkkkkkkkkkkkPjjjjjjjjjjjjjjjjjjjkjddkkkkkkkkkkPjjjjjjj:w€ýc€ýb€ýc€ýbjjjjjjjjjjjjjjjjjkkkkkkkkkkjjjkjjjjkkkjlllllllllllldexjkjjjjjjjjjjjjkjjjjjjjjjjjjjjkkkkkjkddjukkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjkj€ýc€ýbjkjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkk{{{kkkkkkkkkkkkkkkkkkkV}}}}}}]V}}}}}}}xOkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjj€ýc€ýbjjkkkdkddjdddduOcd /glide/temp/jvillegasjj:wkkkkkkkkhhhijvillegas/jj:wjjkkkkkjjjjjjjjjj€ýc€ýbjkkkkjjjjjjjjkkkkkjbbbbcwlxkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjkjjjjjjjjjjjjjjjjjjjjjjjjjjkbbkkkkkkOBASEDIR=/glide/temp/jvillegs€kbasjjjjjjbbbjkjhkjhwwwwwwc${BASI€kbEIDR€kb€kb€kbDIR}/:wjjjjjjjkkkkOjdjddjjjjjkkkkkkddkkkkkkkkkkkkddjjjjjjjjjjjjjjjjlllllllllllllllllilvl0/:e€kbw:e .jjuuuojjkojjjjjjjjjjjojjjjjojjjjo[[]]/ib_[[kjwwwwwwkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjcwi€kblvl0wwwwwwwwwhhhhhh]]:w]]][[[jkkjwwwwwwwwwwwwwwhi*_?lxxxxxxxxxxxxxxxxxxxx:w:wjkllllllllllllllllllllllldexjdexkllllllllllllllllllllhhhhhhhhhhhhhhhhldeudexxxxxxxxxxxi]]:w:w]]jjjjjjjjjjjjjjj[[]][[]]/vl0kjjjjjjjkkkkkkkkkkjjjjkkkkkkjjjjjjjjjjjkkkkjjjjjjkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjj[[jkkjdddd]:w:w]jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjj:bd]jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjyyjjjkjVjy[jjjjjjjjjkkjkkkpujwwwwlhlllllllhhhhhhhcw3400:ldexxllllcW3400:wjkjwwwhlhhcW3400:w€ýc€ýb{{{{{yyVjy€ýc€ýbjjVjy€ýc€ýbkkV}y€ýc€ýbjjjjj€ýc€ýb€ýc€ýb€ýc€ýb€ýc€ýb€ýc€ýbKKkjjkkkkkkjjkjjjjjyy€ýc€ýbyy€ýc€ýbjj€ýc€ýb€ýc€ýbjjV€ýc€ýbjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkV}kky€ýc€ýb€ýc€ýb€ýc€ýbjjjjjjjjjjjyy€ýc€ýbjjyy€ýc€ýbjyy€ýc€ýbjk€ýc€ýbjyy€ýc€ýb€ýc€ýbjyy€ýc€ýb€ýc€ýbjyy€ýc€ýbjjyy€ýc€ýbjyy€ýc€ýb€ýc€ýbjjkyy€ýc€ýb]/:bd:e .jjukkojjjjjjjjjkjojjjjjjjkkkkkkkojjkojjjjjko/GRANTkkkjnnnkjV}}:bd:e .jjjjukkojjjo/jjjjo/GRANTV}}}}yV}}}}}}{y€ýc€ýb€ýc€ýb[Gpkkkkkkkkkjjjjjjjjo#€ü Replication Setupjjjjjjjjkkkkkkkwwwwwwwwwwwlh€ýc€ýbkjwwwwwwlwcbcw€ýc€ýbi€kbujjjjjdejjjjwwf=;;;lldejjjjjjkdejkkkkkkkkkkkkkkkkh€ýc€ýbi
 "w@	CHAR	0
-	i data-id="0"jhhhhhhhhhhh
-""-	CHAR	0
-	s
+	$bye}isnow service pA stop
+"-	CHAR	0
+	.
 
 # File marks:
-'0  28  18  ~/.vimrc
-'1  15  0  /usr/bin/ack
-'2  11  0  ~/www/default/html/q1.php
-'3  1  0  /etc/resolv.conf
-'4  1  0  /etc/resolv.cofn
-'5  6  22  ~/Documents/dev/projects/cc7/devops/plugins/sharedModules/modules/redirect/actions/actions.class.php
-'6  1  0  ~/Documents/dev/projects/cc7/devops/lib/AdicioActions.class.php
-'7  1  0  ~/Documents/dev/projects/platform/devops/lib/PlatformActions.class.php
-'8  1  0  ~/www/default/html/test.php
-'9  4  0  ~/www/default/html/test.php
+'N  537  0  ~/Box Sync/Jeremy Villegas/work/ingusa_CHG1610113/ingusa_notes.sh
+'0  3  0  ~/Box Sync/Jeremy Villegas/work/ibmihgprod_CHG1917050/ibmihgprod.sh
+'1  1  0  ~/.xvimrc
+'2  85  0  ~/Box Sync/Jeremy Villegas/work/microsoftload_CHG1861926/microsoftload.sh
+'3  5  0  ~/Box Sync/Jeremy Villegas/work/jnjprod_CHG1874871/jnjprod.sh
+'4  371  21  ~/Box Sync/Jeremy Villegas/t.sh
+'5  844  32  ~/Box Sync/Jeremy Villegas/current-work.txt
+'6  874  0  ~/Box Sync/Jeremy Villegas/current-work.txt
+'7  239  0  ~/Documents/git/iqoq_validation/iqoq-gen34.sh
+'8  259  6  ~/Documents/git/iqoq_validation/iqoq-gen34.sh
+'9  305  0  ~/Box Sync/Jeremy Villegas/work/ibmnvsacc_CHG1692715/ibmnvsacc.sh
 
 # Jumplist (newest first):
--'  28  18  ~/.vimrc
--'  1  0  ~/.vimrc
--'  15  0  /usr/bin/ack
--'  1  0  /usr/bin/ack
--'  11  0  ~/www/default/html/q1.php
--'  1  0  ~/www/default/html/q1.php
--'  1  0  /etc/resolv.conf
--'  1  0  /etc/resolv.cofn
--'  6  22  ~/Documents/dev/projects/cc7/devops/plugins/sharedModules/modules/redirect/actions/actions.class.php
--'  1  0  ~/Documents/dev/projects/cc7/devops/plugins/sharedModules/modules/redirect/actions/actions.class.php
--'  1  0  ~/Documents/dev/projects/cc7/devops/lib/AdicioActions.class.php
--'  1  0  ~/Documents/dev/projects/platform/devops/lib/PlatformActions.class.php
--'  1  0  ~/www/default/html/test.php
--'  4  0  ~/www/default/html/test.php
--'  1  0  ~/.my.cnf
--'  38  0  ~/Desktop/analysis.txt
--'  39  0  ~/Desktop/analysis.txt
--'  2  0  ~/Desktop/analysis.txt
--'  1  0  ~/Desktop/analysis.txt
--'  10  0  ~/Desktop/analysis.txt
--'  1  0  /tmp/aggregation_checkpoints.csv
--'  3  0  ~/Documents/dev/projects/cc7/devops/apps/siteManager/modules/autoManager/actions/actions.class.php
--'  2023  20  ~/Documents/dev/projects/cc7/devops/apps/siteManager/modules/autoManager/actions/actions.class.php
--'  266  29  ~/Documents/dev/projects/cc7/devops/apps/siteManager/modules/autoManager/actions/actions.class.php
--'  478  23  ~/Documents/dev/projects/cc7/devops/apps/siteManager/modules/autoManager/actions/actions.class.php
--'  279  7  ~/Documents/dev/projects/cc7/devops/apps/siteManager/modules/autoManager/actions/actions.class.php
--'  479  26  ~/Documents/dev/projects/cc7/devops/apps/siteManager/modules/autoManager/actions/actions.class.php
--'  317  20  ~/Documents/dev/projects/cc7/devops/apps/siteManager/modules/autoManager/actions/actions.class.php
--'  264  20  ~/Documents/dev/projects/cc7/devops/apps/siteManager/modules/autoManager/actions/actions.class.php
--'  1313  17  ~/Documents/dev/projects/cc7/devops/apps/siteManager/modules/autoManager/actions/actions.class.php
--'  277  2  ~/Documents/dev/projects/cc7/devops/apps/siteManager/modules/autoManager/actions/actions.class.php
--'  256  29  ~/Documents/dev/projects/cc7/devops/apps/siteManager/modules/autoManager/actions/actions.class.php
--'  219  2  ~/Documents/dev/projects/cc7/devops/apps/siteManager/modules/autoManager/actions/actions.class.php
--'  112  8  ~/Documents/dev/projects/cc7/devops/apps/siteManager/modules/autoManager/actions/actions.class.php
--'  1  0  ~/Documents/dev/projects/cc7/devops/apps/siteManager/modules/autoManager/actions/actions.class.php
--'  458  19  ~/Documents/dev/projects/cc7/devops/lib/model/Classified.php
--'  28  51  ~/Documents/dev/projects/cc7/devops/lib/model/Classified.php
--'  1  0  ~/Documents/dev/projects/cc7/devops/lib/model/Classified.php
--'  1  0  ~/Documents/dev/projects/cc7/devops/lib/model/Classified
--'  24  10  ~/Documents/dev/projects/platform/devops/lib/model/ccast/Classified.php
--'  1024  40  ~/Documents/dev/projects/platform/devops/lib/model/ccast/Classified.php
--'  588  45  ~/Documents/dev/projects/platform/devops/lib/model/ccast/Classified.php
--'  568  27  ~/Documents/dev/projects/platform/devops/lib/model/ccast/Classified.php
--'  519  25  ~/Documents/dev/projects/platform/devops/lib/model/ccast/Classified.php
--'  518  45  ~/Documents/dev/projects/platform/devops/lib/model/ccast/Classified.php
--'  74  14  ~/Documents/dev/projects/platform/devops/lib/model/ccast/Classified.php
--'  52  14  ~/Documents/dev/projects/platform/devops/lib/model/ccast/Classified.php
--'  142  35  ~/Documents/dev/projects/platform/devops/lib/model/ccast/Classified.php
--'  1  0  ~/Documents/dev/projects/platform/devops/lib/model/ccast/Classified.php
--'  204  25  ~/Documents/dev/projects/platform/devops/lib/model/ccast/Classified.php
--'  88  36  ~/Documents/dev/projects/platform/devops/lib/model/ccast/Classified.php
--'  459  16  ~/Documents/dev/projects/platform/devops/lib/model/ccast/Classified.php
--'  280  33  ~/Documents/dev/projects/platform/devops/lib/model/ccast/Classified.php
--'  275  37  ~/Documents/dev/projects/platform/devops/lib/model/ccast/Classified.php
--'  266  44  ~/Documents/dev/projects/platform/devops/lib/model/ccast/Classified.php
--'  265  46  ~/Documents/dev/projects/platform/devops/lib/model/ccast/Classified.php
--'  1  0  ~/Documents/dev/projects/platform/devops/lib/model/ccast/Classified
--'  323  24  ~/Documents/dev/projects/adicio/devops/lib/Adicio/Api/ContentValidator.php
--'  35  51  ~/Documents/dev/projects/adicio/devops/lib/Adicio/Api/ContentValidator.php
--'  60  4  ~/Documents/dev/projects/adicio/devops/lib/Adicio/Api/ContentValidator.php
--'  1  0  ~/Documents/dev/projects/adicio/devops/lib/Adicio/Api/ContentValidator.php
--'  329  26  ~/Documents/dev/projects/cc7/devops/lib/model/Classified.php
--'  294  47  ~/Documents/dev/projects/cc7/devops/lib/model/Classified.php
--'  101  47  ~/Documents/dev/projects/cc7/devops/lib/model/Classified.php
--'  321  50  ~/Documents/dev/projects/cc7/devops/lib/model/Classified.php
--'  33  23  ~/Documents/dev/projects/cc7/devops/lib/LeadReport/SavedReportAlerter.php
--'  28  76  ~/Documents/dev/projects/cc7/devops/lib/LeadReport/SavedReportAlerter.php
--'  9  60  ~/Documents/dev/projects/cc7/devops/lib/LeadReport/SavedReportAlerter.php
--'  1  0  ~/Documents/dev/projects/cc7/devops/lib/LeadReport/SavedReportAlerter.php
--'  12  5  ~/www/default/html/test.php
--'  1  0  ~/Documents/dev/projects/cc7/devops/plugins/sharedModules/modules/sharedCheckout/actions/actions.class.php
--'  39  0  ~/www/nginx/conf/conf.d/80_nginx.conf
--'  1  0  ~/www/nginx/conf/conf.d/80_nginx.conf
--'  17  0  /etc/fstab
--'  1  0  /etc/fstab
--'  250  8  ~/Documents/dev/projects/cc7/devops/phplib/CustomEmail.php
--'  249  0  ~/Documents/dev/projects/cc7/devops/phplib/CustomEmail.php
--'  197  6  ~/Documents/dev/projects/cc7/devops/phplib/CustomEmail.php
--'  268  6  ~/Documents/dev/projects/cc7/devops/phplib/CustomEmail.php
--'  434  10  ~/Documents/dev/projects/cc7/devops/phplib/CustomEmail.php
--'  1  0  ~/Documents/dev/projects/cc7/devops/phplib/CustomEmail.php
--'  10  0  ~/Documents/dev/projects/cc7/devops/web/classifieds.php
--'  1  0  ~/Documents/dev/projects/cc7/devops/web/classifieds.php
--'  22  0  /tmp/t
--'  15  10  /tmp/t
--'  11  17  /tmp/t
--'  8  0  /tmp/t
--'  1  0  /tmp/t
--'  6  41  /tmp/t
--'  19  44  /tmp/t
--'  1  0  /tmp/t.bash
--'  4  28  ~/Documents/dev/projects/platform/devops/apps/t.sh
--'  1  0  ~/Documents/dev/projects/platform/devops/apps/t.sh
--'  9  6  ~/Documents/dev/projects/platform/devops/apps/t.sh
--'  10  0  ~/Documents/dev/projects/platform/devops/apps/t.sh
--'  3  9  ~/Documents/dev/projects/platform/devops/apps/t2.sh
--'  1  0  ~/Documents/dev/projects/platform/devops/apps/t2.sh
--'  5  3  ~/Documents/dev/projects/platform/devops/apps/t.sh
--'  8  8  ~/Documents/dev/projects/platform/devops/apps/t.sh
--'  7  0  ~/Documents/dev/projects/platform/devops/apps/t.sh
+-'  3  0  ~/Box Sync/Jeremy Villegas/work/ibmihgprod_CHG1917050/ibmihgprod.sh
+-'  1  0  ~/Box Sync/Jeremy Villegas/current-work.txt
+-'  1629  0  ~/Box Sync/Jeremy Villegas/general.txt
+-'  1630  0  ~/Box Sync/Jeremy Villegas/general.txt
+-'  1632  0  ~/Box Sync/Jeremy Villegas/general.txt
+-'  1634  0  ~/Box Sync/Jeremy Villegas/general.txt
+-'  1636  0  ~/Box Sync/Jeremy Villegas/general.txt
+-'  1638  0  ~/Box Sync/Jeremy Villegas/general.txt
+-'  1640  0  ~/Box Sync/Jeremy Villegas/general.txt
+-'  1643  0  ~/Box Sync/Jeremy Villegas/general.txt
+-'  1645  0  ~/Box Sync/Jeremy Villegas/general.txt
+-'  1647  0  ~/Box Sync/Jeremy Villegas/general.txt
+-'  1651  0  ~/Box Sync/Jeremy Villegas/general.txt
+-'  6  0  ~/Box Sync/Jeremy Villegas/general.txt
+-'  26  0  ~/Box Sync/Jeremy Villegas/work/ibmihgprod_CHG1917050/ibmihgprod.sh
+-'  9  0  ~/Box Sync/Jeremy Villegas/work/NERD_tree_52
+-'  16  0  ~/Box Sync/Jeremy Villegas/work/NERD_tree_52
+-'  1  0  ~/Box Sync/Jeremy Villegas/work/NERD_tree_52
+-'  86  0  ~/Box Sync/Jeremy Villegas/work/kpn_CHG1911831/kpn.sh
+-'  5  0  ~/Box Sync/NERD_tree_51
+-'  1  0  ~/Box Sync/NERD_tree_51
+-'  3  3  ~/Box Sync/Jeremy Villegas/general.txt
+-'  23  0  ~/Box Sync/Jeremy Villegas/current-work.txt
+-'  1  0  ~/Box Sync/Jeremy Villegas/work/kpn_CHG1911831/kpn.sh
+-'  60  54  ~/Box Sync/Jeremy Villegas/work/kpn_CHG1911831/kpn.sh
+-'  74  5  ~/Box Sync/Jeremy Villegas/work/kpn_CHG1911831/kpn.sh
+-'  15  4  ~/Box Sync/NERD_tree_50
+-'  30  2  ~/Box Sync/NERD_tree_50
+-'  1  6  ~/Box Sync/NERD_tree_50
+-'  1032  0  ~/Box Sync/Jeremy Villegas/current-work.txt
+-'  1033  2  ~/Box Sync/Jeremy Villegas/current-work.txt
+-'  58  9  ~/Box Sync/Jeremy Villegas/work/kpn_CHG1911831/kpn.sh
+-'  59  0  ~/Box Sync/Jeremy Villegas/work/kpn_CHG1911831/kpn.sh
+-'  43  0  ~/Box Sync/Jeremy Villegas/work/kpn_CHG1911831/kpn.sh
+-'  33  0  ~/Box Sync/Jeremy Villegas/work/kpn_CHG1911831/kpn.sh
+-'  30  0  ~/Box Sync/Jeremy Villegas/work/kpn_CHG1911831/kpn.sh
+-'  24  0  ~/Box Sync/Jeremy Villegas/work/kpn_CHG1911831/kpn.sh
+-'  20  0  ~/Box Sync/Jeremy Villegas/work/kpn_CHG1911831/kpn.sh
+-'  14  0  ~/Box Sync/Jeremy Villegas/work/kpn_CHG1911831/kpn.sh
+-'  11  0  ~/Box Sync/Jeremy Villegas/work/kpn_CHG1911831/kpn.sh
+-'  7  0  ~/Box Sync/Jeremy Villegas/work/kpn_CHG1911831/kpn.sh
+-'  2  0  ~/Box Sync/Jeremy Villegas/work/kpn_CHG1911831/kpn.sh
+-'  38  12  ~/Box Sync/Jeremy Villegas/work/kpn_CHG1911831/kpn.sh
+-'  42  0  ~/Box Sync/Jeremy Villegas/current-work.txt
+-'  15  4  ~/Box Sync/NERD_tree_49
+-'  30  2  ~/Box Sync/NERD_tree_49
+-'  1  6  ~/Box Sync/NERD_tree_49
+-'  14  0  ~/Box Sync/Jeremy Villegas/current-work.txt
+-'  19  0  ~/Box Sync/Jeremy Villegas/current-work.txt
+-'  35  0  ~/Box Sync/Jeremy Villegas/current-work.txt
+-'  9  0  ~/Box Sync/Jeremy Villegas/current-work.txt
+-'  45  0  ~/Box Sync/Jeremy Villegas/current-work.txt
+-'  41  7  ~/Box Sync/Jeremy Villegas/current-work.txt
+-'  7  0  ~/Box Sync/NERD_tree_48
+-'  29  2  ~/Box Sync/NERD_tree_48
+-'  1  0  ~/Box Sync/NERD_tree_48
+-'  8  0  ~/Box Sync/Jeremy Villegas/current-work.txt
+-'  7  0  ~/Box Sync/Jeremy Villegas/current-work.txt
+-'  9  0  ~/Box Sync/NERD_tree_47
+-'  25  2  ~/Box Sync/NERD_tree_47
+-'  1  0  ~/Box Sync/NERD_tree_47
+-'  1  2  ~/Box Sync/Jeremy Villegas/work/cssnow_CHG1882176/cssnow.sh
+-'  112  0  ~/Box Sync/Jeremy Villegas/work/cssnow_CHG1882176/cssnow.sh
+-'  10  0  ~/Box Sync/Jeremy Villegas/work/cssnow_CHG1882176/cssnow.sh
+-'  10  0  ~/Box Sync/NERD_tree_46
+-'  30  2  ~/Box Sync/NERD_tree_46
+-'  1  0  ~/Box Sync/NERD_tree_46
+-'  6  0  ~/Box Sync/Jeremy Villegas/current-work.txt
+-'  3  0  ~/Box Sync/Jeremy Villegas/work/ibmihgprod_CHG1917050/ibmihgprod.sh
+-'  1  0  ~/Box Sync/Jeremy Villegas/current-work.txt
+-'  1629  0  ~/Box Sync/Jeremy Villegas/general.txt
+-'  1630  0  ~/Box Sync/Jeremy Villegas/general.txt
+-'  1632  0  ~/Box Sync/Jeremy Villegas/general.txt
+-'  1634  0  ~/Box Sync/Jeremy Villegas/general.txt
+-'  1636  0  ~/Box Sync/Jeremy Villegas/general.txt
+-'  1638  0  ~/Box Sync/Jeremy Villegas/general.txt
+-'  1640  0  ~/Box Sync/Jeremy Villegas/general.txt
+-'  1643  0  ~/Box Sync/Jeremy Villegas/general.txt
+-'  1645  0  ~/Box Sync/Jeremy Villegas/general.txt
+-'  1647  0  ~/Box Sync/Jeremy Villegas/general.txt
+-'  1651  0  ~/Box Sync/Jeremy Villegas/general.txt
+-'  6  0  ~/Box Sync/Jeremy Villegas/general.txt
+-'  26  0  ~/Box Sync/Jeremy Villegas/work/ibmihgprod_CHG1917050/ibmihgprod.sh
+-'  9  0  ~/Box Sync/Jeremy Villegas/work/NERD_tree_52
+-'  16  0  ~/Box Sync/Jeremy Villegas/work/NERD_tree_52
+-'  1  0  ~/Box Sync/Jeremy Villegas/work/NERD_tree_52
+-'  86  0  ~/Box Sync/Jeremy Villegas/work/kpn_CHG1911831/kpn.sh
+-'  5  0  ~/Box Sync/NERD_tree_51
+-'  1  0  ~/Box Sync/NERD_tree_51
+-'  3  3  ~/Box Sync/Jeremy Villegas/general.txt
+-'  23  0  ~/Box Sync/Jeremy Villegas/current-work.txt
+-'  1  0  ~/Box Sync/Jeremy Villegas/work/kpn_CHG1911831/kpn.sh
+-'  60  54  ~/Box Sync/Jeremy Villegas/work/kpn_CHG1911831/kpn.sh
+-'  74  5  ~/Box Sync/Jeremy Villegas/work/kpn_CHG1911831/kpn.sh
+-'  15  4  ~/Box Sync/NERD_tree_50
+-'  30  2  ~/Box Sync/NERD_tree_50
+-'  1  6  ~/Box Sync/NERD_tree_50
 
 # History of marks within files (newest to oldest):
 
-> ~/.vimrc
-	"	28	18
-	^	28	19
-	.	28	18
-	+	28	18
+> /Users/NERD_tree_1
+	"	45	0
+	.	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
 
-> /usr/bin/ack
-	"	15	0
-
-> ~/www/default/html/q1.php
-	"	11	0
-	^	11	9
-	.	11	0
+> ~/Box Sync/Jeremy Villegas/current-work.txt
+	"	1	0
+	.	1033	0
+	+	832	0
+	+	823	0
+	+	818	3
+	+	824	25
+	+	821	36
+	+	1033	24
+	+	29	24
+	+	844	0
+	+	1033	0
+	+	1033	4
+	+	842	28
+	+	821	13
+	+	821	3
+	+	821	0
+	+	1033	0
+	+	821	0
+	+	820	0
+	+	27	38
+	+	14	40
+	+	25	26
+	+	14	42
+	+	19	3
+	+	22	0
+	+	26	0
+	+	25	35
+	+	20	9
+	+	19	0
+	+	14	10
+	+	27	0
+	+	25	0
+	+	25	0
+	+	25	192
+	+	25	7
+	+	25	0
+	+	25	0
+	+	25	4
+	+	25	120
+	+	25	229
+	+	25	395
+	+	25	0
+	+	23	28
+	+	824	14
+	+	831	24
+	+	844	0
+	+	13	0
+	+	12	0
+	+	13	0
+	+	22	0
+	+	21	54
+	+	22	0
+	+	11	19
+	+	9	26
+	+	13	0
+	+	1033	0
+	+	1033	0
 	+	11	0
+	+	1033	0
+	+	1033	0
+	+	11	0
+	+	13	0
+	+	1033	0
+	+	7	39
+	+	8	36
+	+	8	33
+	+	7	46
+	+	5	12
+	+	6	9
+	+	6	0
+	+	4	0
+	+	1	24
+	+	7	0
+	+	7	0
+	+	3	0
+	+	7	0
+	+	8	0
+	+	1033	0
+	+	14	0
+	+	18	43
+	+	8	37
+	+	2	17
+	+	2	0
+	+	1033	0
+	+	1	0
+	+	1033	0
+	+	1033	5
+	+	1033	0
+	+	1033	0
+	+	30	0
+	+	7	0
+	+	37	0
+	+	8	0
+	+	42	0
+	+	41	7
+	+	9	0
+	+	35	0
+	+	14	0
+	+	33	0
+	+	1	12
+	+	1033	0
+	+	1033	0
+	q	925	0
 
-> /etc/resolv.conf
-	"	1	0
+> ~/Box Sync/NERD_tree_2
+	"	67	8
+	.	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
 
-> /etc/resolv.cofn
-	"	1	0
+> ~/Box Sync/Jeremy Villegas/archive/kpn_CHG1750325/kpn.sh
+	"	2	0
 
-> ~/Documents/dev/projects/cc7/devops/plugins/sharedModules/modules/redirect/actions/actions.class.php
-	"	6	22
-	^	11	43
-	.	11	42
-	+	11	42
+> ~/Box Sync/Jeremy Villegas/archive/NERD_tree_3
+	"	28	4
+	.	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
 
-> ~/Documents/dev/projects/cc7/devops/lib/AdicioActions.class.php
-	"	1	0
+> ~/Box Sync/Jeremy Villegas/work/kpn_CHG1861715/kpn.sh
+	"	110	0
 
-> ~/Documents/dev/projects/platform/devops/lib/PlatformActions.class.php
-	"	1	0
+> ~/Box Sync/Jeremy Villegas/work/NERD_tree_4
+	"	26	0
+	.	1	0
+	+	1	0
+	+	1	0
+	+	1	0
 
-> ~/www/default/html/test.php
-	"	1	0
-	^	4	0
-	.	3	13
-	+	101	22
-	+	106	1
-	+	106	0
-	+	104	16
-	+	103	16
-	+	104	15
-	+	108	11
+> ~/Box Sync/Jeremy Villegas/work/kpn_CHG1901513/kpn.sh
+	"	15	0
+	^	48	87
+	.	42	0
+	+	2	62
+	+	3	0
+	+	4	0
+	+	4	0
+	+	4	0
+	+	4	16
+	+	4	0
+	+	4	0
+	+	4	179
+	+	4	40
+	+	4	0
+	+	4	0
+	+	4	38
+	+	4	7
+	+	4	0
+	+	4	0
+	+	18	0
+	+	24	0
+	+	19	37
+	+	20	0
+	+	22	0
+	+	20	3
+	+	21	13
+	+	45	2
+	+	47	3
+	+	46	0
+	+	47	25
+	+	48	10
+	+	45	84
+	+	48	73
+	+	51	32
+	+	39	17
+	+	24	0
+	+	24	0
+	+	24	0
+	+	39	0
+	+	43	16
+	+	43	17
+	+	43	17
+	+	35	0
+	+	37	0
+	+	37	0
+	+	35	0
+	+	34	4
+	+	35	33
+	+	37	0
+	+	35	36
+	+	37	0
+	+	35	52
+	+	36	19
+	+	43	0
+	+	43	0
+	+	43	136
+	+	40	0
+	+	41	18
+	+	43	0
+	+	5	0
+	+	8	0
+	+	24	0
+	+	19	0
+	+	10	0
+	+	31	0
+	+	31	104
+	+	31	18
+	+	27	10
+	+	31	9
+	+	35	31
+	+	37	0
+	+	38	0
+	+	43	92
+	+	48	86
+	+	43	0
+	+	41	0
+	+	42	0
+	w	42	92
+
+> ~/Box Sync/Jeremy Villegas/work/NERD_tree_5
+	"	12	2
+	.	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+
+> ~/Box Sync/Jeremy Villegas/general.txt
+	"	1629	0
+	^	5	46
+	.	5	45
+	+	145	0
+	+	140	51
+	+	141	20
+	+	144	0
+	+	143	56
+	+	1568	0
+	+	134	42
+	+	135	0
+	+	1557	0
+	+	131	0
+	+	735	0
+	+	116	3
+	+	1556	0
+	+	1558	0
+	+	1560	0
+	+	1562	0
+	+	1564	0
+	+	114	0
+	+	116	34
+	+	1024	15
+	+	1026	10
+	+	119	0
+	+	118	46
+	+	119	0
+	+	132	10
+	+	803	47
+	+	1552	0
+	+	113	0
+	+	101	36
+	+	102	0
+	+	113	0
+	+	104	29
+	+	105	71
+	+	107	15
+	+	112	0
+	+	107	11
+	+	94	8
+	+	98	0
+	+	91	0
+	+	97	8
+	+	89	84
+	+	90	0
+	+	88	27
+	+	81	0
+	+	69	0
+	+	70	0
+	+	72	0
+	+	74	0
+	+	76	0
+	+	77	0
+	+	79	0
+	+	70	19
+	+	74	0
+	+	84	19
+	+	66	0
+	+	1555	0
+	+	1554	0
+	+	1555	0
+	+	63	31
+	+	64	57
+	+	65	0
+	+	590	0
+	+	1203	161
+	+	34	0
+	+	25	0
+	+	25	0
+	+	36	0
+	+	47	0
+	+	60	0
+	+	53	0
+	+	57	24
+	+	58	30
+	+	25	0
+	+	36	0
+	+	40	0
+	+	36	0
+	+	47	0
+	+	53	0
+	+	57	0
+	+	53	0
+	+	47	0
+	+	36	0
+	+	25	0
+	+	373	0
+	+	19	4
+	+	20	0
+	+	20	0
+	+	13	0
+	+	16	0
+	+	13	38
+	+	14	0
+	+	13	4
+	+	15	13
+	+	13	0
+	+	9	23
+	+	458	155
+	+	3	60
+	+	4	19
+	+	6	0
+	+	5	45
+	m	1362	0
+
+> ~/Box Sync/NERD_tree_6
+	"	28	4
+	.	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+
+> ~/Box Sync/Jeremy Villegas/work/jnjprod_CHG1874871/jnjprod.sh
+	"	3	0
+	^	1	31
+	.	1	30
+	+	2	0
+	+	6	0
+	+	2	11
+	+	5	0
+	+	1	25
+	+	2	0
+	+	3	0
+	+	5	0
+	+	4	5
+	+	1	30
+
+> ~/Box Sync/NERD_tree_7
+	"	11	0
+	.	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+
+> ~/Box Sync/NERD_tree_8
+	"	12	0
+	.	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+
+> ~/Box Sync/Jeremy Villegas/work/cssnow_CHG1882176/cssnow.sh
+	"	1	2
+
+> ~/Box Sync/Jeremy Villegas/work/NERD_tree_9
+	"	6	2
+	.	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+
+> ~/Box Sync/Jeremy Villegas/work/cibc_CHG1870966/cibc.sh
+	"	4	2
+
+> ~/Box Sync/NERD_tree_10
+	"	18	0
+	.	1	0
+	+	1	0
+
+> ~/Box Sync/Jeremy Villegas/t.sh
+	"	200	0
+	^	19	0
+	.	18	0
+	+	412	21
+	+	413	21
+	+	414	21
+	+	403	9
+	+	401	631
+	+	396	0
+	+	395	0
+	+	396	76
+	+	396	207
+	+	397	0
+	+	396	205
+	+	396	0
+	+	396	206
+	+	386	0
+	+	372	11
+	+	372	11
+	+	373	11
+	+	373	11
+	+	373	11
+	+	373	11
+	+	373	11
+	+	373	11
+	+	374	11
+	+	382	11
+	+	382	11
+	+	380	11
+	+	381	11
+	+	383	11
+	+	384	11
+	+	386	0
+	+	372	11
+	+	372	26
+	+	373	0
+	+	387	0
+	+	373	11
+	+	373	11
+	+	373	11
+	+	373	11
+	+	374	11
+	+	375	11
+	+	376	11
+	+	377	11
+	+	378	11
+	+	379	11
+	+	380	11
+	+	381	11
+	+	382	11
+	+	383	11
+	+	384	11
+	+	385	0
+	+	371	21
+	+	368	0
+	+	365	0
+	+	368	30
+	+	365	30
+	+	367	0
+	+	363	0
+	+	330	0
+	+	335	0
+	+	343	5
+	+	328	0
+	+	326	97
+	+	326	15
+	+	326	162
+	+	322	0
+	+	323	0
+	+	324	0
+	+	325	0
+	+	324	113
+	+	311	10
+	+	310	49
+	+	321	26
+	+	309	18
+	+	311	51
+	+	321	0
+	+	321	0
+	+	313	54
+	+	310	68
+	+	314	74
+	+	319	48
+	+	316	7
+	+	318	81
+	+	319	0
+	+	307	0
+	+	250	9
+	+	251	9
+	+	252	0
+	+	254	0
+	+	249	19
+	+	268	27
+	+	269	12
+	+	254	0
+	+	736	0
+	+	255	0
+	+	373	0
+	+	373	0
+	+	371	0
+	+	247	0
+	+	245	0
+	+	18	0
+	w	372	0
+
+> ~/Box Sync/NERD_tree_11
+	"	24	14
+	.	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+
+> ~/Box Sync/Jeremy Villegas/work/jnjqa2_CHG1870709/jnjqa2.sh
+	"	185	0
+	^	157	6
+	.	164	0
+	+	66	49
+	+	83	0
+	+	77	9
+	+	77	25
+	+	77	41
+	+	77	57
+	+	77	15
+	+	77	31
+	+	77	47
+	+	83	0
+	+	77	11
+	+	78	0
+	+	76	33
+	+	84	0
+	+	89	48
+	+	89	9
+	+	89	25
+	+	89	41
+	+	89	57
+	+	89	15
+	+	89	31
+	+	89	47
+	+	95	0
+	+	89	11
+	+	90	0
+	+	102	0
+	+	100	33
+	+	100	48
+	+	100	9
+	+	100	25
+	+	100	41
+	+	100	57
+	+	100	15
+	+	100	31
+	+	100	47
+	+	100	0
+	+	100	0
+	+	101	0
+	+	100	0
+	+	168	0
+	+	58	86
+	+	59	0
+	+	68	26
+	+	81	0
+	+	93	0
+	+	105	0
+	+	108	0
+	+	167	0
+	+	108	2
+	+	155	0
+	+	7	33
+	+	4	24
+	+	5	0
+	+	57	0
+	+	58	0
+	+	56	43
+	+	109	1
+	+	109	0
+	+	110	29
+	+	111	1
+	+	109	0
+	+	111	12
+	+	112	0
+	+	113	0
+	+	113	26
+	+	114	0
+	+	121	0
+	+	120	30
+	+	121	0
+	+	123	0
+	+	123	0
+	+	129	0
+	+	131	0
+	+	138	0
+	+	140	0
+	+	149	0
+	+	147	0
+	+	150	0
+	+	151	3
+	+	154	0
+	+	152	0
+	+	153	0
+	+	152	26
+	+	153	7
+	+	111	37
+	+	155	2
+	+	156	10
+	+	157	7
+	+	159	50
+	+	161	0
+	+	162	50
+	+	163	33
+	+	164	7
+	+	166	0
+	+	176	58
+	+	23	0
+	+	154	0
+	+	153	15
+	+	157	0
+	+	164	0
+	w	151	0
+
+> ~/Box Sync/NERD_tree_12
+	"	28	0
+	.	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+
+> ~/Box Sync/Jeremy Villegas/work/jnjqa2_CHG1905784/jnjqa2.sh
+	"	47	46
+	^	20	0
+	.	47	46
+	+	95	0
+	+	196	0
+	+	97	0
+	+	97	0
+	+	103	63
+	+	196	0
+	+	105	0
+	+	14	0
+	+	4	0
+	+	5	0
+	+	13	0
+	+	11	46
+	+	12	25
+	+	11	43
+	+	16	0
+	+	105	0
 	+	104	0
 	+	106	0
-	+	106	0
-	+	42	1
-	+	35	10
-	+	39	4
-	+	38	20
-	+	39	12
-	+	41	4
-	+	108	0
-	+	1	0
-	+	35	0
-	+	1	0
-	+	33	1
-	+	23	22
-	+	23	39
-	+	29	16
-	+	23	13
-	+	31	0
-	+	30	27
-	+	23	0
+	+	16	0
+	+	16	0
+	+	16	1
+	+	16	32
+	+	17	40
+	+	21	0
 	+	25	0
-	+	30	44
-	+	25	47
-	+	28	14
-	+	30	39
-	+	25	30
-	+	27	42
-	+	23	0
-	+	21	1
-	+	20	22
-	+	10	9
-	+	20	18
-	+	10	21
-	+	17	0
+	+	21	3
+	+	85	0
+	+	22	23
+	+	19	0
+	+	85	0
+	+	16	0
 	+	15	0
-	+	10	10
-	+	12	22
-	+	13	27
-	+	14	9
-	+	15	16
-	+	14	24
-	+	10	0
-	+	8	1
-	+	7	0
-	+	3	13
-
-> ~/.my.cnf
-	"	1	0
-
-> ~/Desktop/analysis.txt
-	"	38	0
-	^	38	0
-	.	37	0
-	+	1	72
+	+	85	0
+	+	22	23
+	+	17	23
+	+	85	0
+	+	40	21
+	+	70	0
+	+	40	0
+	+	15	2
+	+	85	13
+	+	85	0
+	+	85	0
+	+	85	0
+	+	85	28
+	+	85	3
+	+	85	27
+	+	85	26
+	+	85	0
+	+	41	0
+	+	38	0
+	+	85	0
+	+	26	0
+	+	69	0
+	+	68	20
+	+	70	0
+	+	71	0
+	+	70	15
+	+	85	0
+	+	35	0
+	+	82	8
+	+	82	0
+	+	82	88
+	+	82	4
+	+	55	0
+	+	68	15
+	+	70	12
+	+	69	0
+	+	70	0
+	+	69	4
+	+	11	43
+	+	12	43
+	+	82	0
+	+	63	17
+	+	65	0
+	+	75	0
+	+	76	13
+	+	82	0
+	+	72	0
+	+	78	0
+	+	82	0
+	+	81	12
+	+	83	0
+	+	82	117
+	+	83	0
+	+	92	0
 	+	1	0
-	+	39	0
-	+	37	0
+	+	18	86
+	+	23	11
+	+	11	43
+	+	17	23
+	+	18	11
+	+	28	23
+	+	47	43
+	+	57	12
+	+	63	13
+	+	19	23
+	+	26	0
+	+	24	0
+	+	47	46
+	w	69	3
 
-> /tmp/aggregation_checkpoints.csv
-	"	1	0
+> ~/Box Sync/NERD_tree_13
+	"	28	4
+	.	1	0
+	+	1	0
+	+	1	0
+	+	1	0
 
-> ~/Documents/dev/projects/cc7/devops/apps/siteManager/modules/autoManager/actions/actions.class.php
-	"	3	0
-	.	280	37
-	+	100	1
-	+	280	37
+> ~/Box Sync/Jeremy Villegas/work/NERD_tree_14
+	"	12	2
+	.	1	0
+	+	1	0
+	+	1	0
+	+	1	0
 
-> ~/Documents/dev/projects/adicio/devops/lib/Adicio/Vertical.php
-	"	120	5
+> ~/Box Sync/NERD_tree_15
+	"	10	4
+	.	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
 
-> ~/Documents/dev/projects/cc7/devops/lib/model/Jobs.php
-	"	17	25
+> ~/Box Sync/NERD_tree_16
+	"	40	4
+	.	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
 
-> ~/Documents/dev/projects/cc7/devops/lib/model/AutosPeer.php
-	"	1	0
+> ~/Box Sync/Jeremy Villegas/work/sparcqual_CHG1882639/sparcqual.sh
+	"	43	31
 
-> ~/Documents/dev/projects/cc7/devops/lib/model/om/BaseAutosPeer.php
-	"	1	0
-
-> ~/Documents/dev/projects/cc7/devops/lib/model/AutosP
-	"	1	0
-
-> ~/Documents/dev/projects/cc7/devops/lib/model/Classified.php
-	"	458	19
-	^	458	20
-	.	458	18
-	+	458	18
-
-> ~/Documents/dev/projects/cc7/devops/lib/model/Classified
-	"	1	0
-
-> ~/Documents/dev/projects/platform/devops/lib/model/ccast/Classified.php
-	"	24	10
-
-> ~/Documents/dev/projects/platform/devops/lib/model/ccast/Classified
-	"	1	0
-
-> ~/Documents/dev/projects/adicio/devops/lib/Adicio/Api/ContentValidator.php
-	"	323	24
-
-> ~/Documents/dev/projects/cc7/devops/lib/LeadReport/SavedReportAlerter.php
-	"	33	23
-
-> ~/Documents/dev/projects/cc7/devops/plugins/sharedModules/modules/sharedCheckout/actions/actions.class.php
-	"	1	0
-	.	2461	0
-	+	2474	0
-	+	2461	0
-
-> ~/www/nginx/conf/conf.d/80_nginx.conf
-	"	39	0
-
-> /etc/fstab
-	"	17	0
-	^	17	1
-	.	17	0
-	+	17	0
-
-> ~/Documents/dev/projects/cc7/devops/phplib/CustomEmail.php
-	"	250	8
-	.	249	0
-	+	249	0
-
-> ~/Documents/dev/projects/cc7/devops/web/classifieds.php
-	"	10	0
-
-> /tmp/t
-	"	22	0
-	^	22	0
-	.	22	0
-	+	8	0
-	+	6	12
-	+	6	10
-	+	19	45
-	+	6	0
-	+	8	0
-	+	6	0
-	+	11	0
-	+	11	0
-	+	10	0
-	+	11	0
-	+	18	0
-	+	4	11
-	+	17	0
-	+	16	10
-	+	5	18
-	+	20	41
-	+	22	0
-
-> /tmp/temp
-	"	175	0
-	^	291	0
-	.	290	103
-	+	290	103
-
-> /tmp/t.bash
-	"	1	0
-
-> ~/Documents/dev/projects/platform/devops/apps/t.sh
-	"	4	28
-	^	4	29
-	.	4	28
-	+	7	6
-	+	7	0
-	+	8	16
-	+	7	0
-	+	6	0
-	+	4	20
-	+	5	9
-	+	7	0
-	+	4	7
-	+	5	7
-	+	3	9
-	+	8	0
-	+	4	3
-	+	5	3
-	+	3	9
-	+	4	7
-	+	5	7
-	+	8	9
-	+	4	42
-	+	9	2
-	+	10	0
-	+	9	6
-	+	4	28
-
-> ~/Documents/dev/projects/platform/devops/apps/t2.sh
-	"	3	9
-	^	3	10
-	.	3	9
-	+	3	9
-
-> /tmp/b
-	"	2	0
-	^	2	0
-	.	1	148
-	+	1	148
-
-> /tmp/a
-	"	2	0
-	^	2	0
-	.	1	148
-	+	1	148
-
-> ~/test
-	"	2	147
-	^	2	148
-	.	2	100
-	+	2	100
-
-> ~/Documents/dev/projects/platform/devops/apps/motors/modules/listing/actions/actions.class.php
-	"	669	20
-	.	669	20
-	+	669	20
-
-> ~/Documents/dev/projects/cc7/devops/apps/siteManager/lib/myUser.class.php
-	"	24	0
-
-> lib/AdicioUser.class.php
-	"	1	0
-
-> ~/Documents/dev/projects/cc7/devops/apps/siteManager/lib/NERD_tree_1
-	"	38	0
+> ~/Box Sync/NERD_tree_17
+	"	40	4
 	.	1	0
 	+	1	0
 	+	1	0
@@ -551,339 +1269,1838 @@ $
 	+	1	0
 	+	1	0
 
-> ~/Documents/dev/projects/cc7/devops/lib/AdicioUser.class.php
-	"	5	0
-	^	5	1
-	.	5	0
-	+	5	0
-
-> ~/Documents/dev/projects/cc7/devops/lib/NERD_tree_2
-	"	33	0
-	.	1	0
-	+	1	0
-
-> ~/Documents/dev/projects/cc7/devops/lib/cc7Common.class.php
-	"	252	4
-	^	253	30
-	.	253	29
-	+	253	29
-
-> ~/Documents/dev/projects/cc7/devops/lib/model/Accounts.php
-	"	359	20
-
-> ~/Documents/dev/projects/cc7/devops/plugins/sfGuardPlugin/lib/model/plugin/PluginsfGuardUser.php
-	"	1	0
-
-> ~/Documents/dev/projects/cc7/devops/lib/PlatformUser.class.php
-	"	182	35
-
-> ~/Documents/dev/projects/cc7/devops/plugins/sfGuardPlugin/lib/user/sfGuardSecurityUser.class.php
-	"	22	18
-
-> ~/Documents/dev/projects/cc7/devops/apps/siteManager/modules/transactionManager/actions/actions.class.php
-	"	247	20
-	.	1	0
-	+	1	0
-
-> /media/jvillegas/96fca502-395a-4242-9df6-029099352d37/resumeupload/2013-07/22/00/NERD_tree_1
-	"	5	0
-	.	1	0
-	+	1	0
-
-> /media/jvillegas/96fca502-395a-4242-9df6-029099352d37/resumeupload/2013-07/22/00/NERD_tree_2
-	"	5	0
-	.	1	0
-	+	1	0
-
-> /media/jvillegas/96fca502-395a-4242-9df6-029099352d37/resumeupload/2013-07/22/00/32/51ece02b5742.doc
-	"	1	0
-
-> scp://ys-c-00.oc.careercast.com/home/db/files/resumeupload/2013-07/22/00/32/51ece02b5742.doc
-	"	1	0
-
-> /media/jvillegas/96fca502-395a-4242-9df6-029099352d37/resumeupload/2013-07/22/NERD_tree_1
+> ~/Box Sync/Jeremy Villegas/work/sparc_CHG1882638/sparc.sh
 	"	6	0
-	.	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
+	^	141	82
+	.	141	0
+	+	143	0
+	+	90	0
+	+	144	0
+	+	201	0
+	+	197	0
+	+	8	0
+	+	8	0
+	+	8	0
+	+	9	28
+	+	10	13
+	+	11	0
+	+	57	0
+	+	56	46
+	+	71	13
+	+	82	0
+	+	81	0
+	+	83	0
+	+	67	0
+	+	15	0
+	+	16	35
+	+	17	0
+	+	16	49
+	+	27	0
+	+	17	33
+	+	18	20
+	+	19	75
+	+	21	41
+	+	24	26
+	+	25	33
+	+	26	24
+	+	22	49
+	+	19	60
+	+	20	26
+	+	67	4
+	+	81	0
+	+	83	0
+	+	81	5
+	+	92	0
+	+	116	0
+	+	92	1
+	+	97	0
+	+	92	0
+	+	109	0
+	+	95	0
+	+	100	0
+	+	105	0
+	+	109	114
+	+	94	0
+	+	102	0
+	+	102	0
+	+	99	0
+	+	104	0
+	+	93	33
+	+	94	110
+	+	99	110
+	+	104	110
+	+	109	110
+	+	94	103
+	+	99	101
+	+	99	0
+	+	104	103
+	+	109	103
+	+	95	23
+	+	100	23
+	+	105	23
+	+	110	23
+	+	113	7
+	+	113	0
+	+	115	2
+	+	113	0
+	+	112	21
+	+	115	0
+	+	113	33
+	+	114	14
+	+	115	11
+	+	117	32
+	+	129	0
+	+	120	12
+	+	122	15
+	+	123	0
+	+	124	39
+	+	123	35
+	+	124	0
+	+	125	0
+	+	126	11
+	+	128	2
+	+	129	33
+	+	130	27
+	+	131	0
+	+	132	0
+	+	133	2
+	+	134	9
+	+	135	10
+	+	136	0
+	+	137	0
+	+	138	0
+	+	137	2
+	+	138	12
+	+	140	16
+	+	141	0
+	w	129	0
 
-> /media/jvillegas/96fca502-395a-4242-9df6-029099352d37/resumeupload/2013-07/22/NERD_tree_2
+> ~/Box Sync/NERD_tree_18
 	"	12	4
 	.	1	0
 	+	1	0
 	+	1	0
 	+	1	0
-
-> /media/jvillegas/96fca502-395a-4242-9df6-029099352d37/resumeupload/2013-07/22/00/03/51ecd94ea7ed.pdf
-	"	3	1
-	^	3	2
-	.	3	1
-	+	3	1
-
-> ~/Documents/dev/projects/cc7/devops/test.php
-	"	1	0
-
-> ~/www/default/html/test.
-	"	1	0
-
-> ~/tmp/pasteResumes.txt
-	"	680	0
-	.	679	0
-	+	715	18
-	+	715	0
-	+	640	0
-	+	679	0
-
-> ~/Documents/dev/projects/adicio/devops/lib/Adicio/Utils/DataToFtp.php
-	"	58	12
-
-> ~/Documents/dev/projects/adicio/devops/lib/Adicio/Utils/Dat
-	"	1	0
-
-> ~/Documents/dev/projects/platform/devops/plugins/sharedPlugin/modules/listingManager/actions/actions.class.php
-	"	1	0
-
-> ~/Documents/dev/projects/cc7/rrt/apps/siteManager/modules/reports/actions/actions.class.php
-	"	1	0
-
-> ~/Documents/dev/projects/cc7/trunk/plugins/sharedModules/modules/sharedCheckout/templates/_receiptOrder.php
-	"	1	0
-
-> ~/Documents/dev/projects/cc7/trunk/plugins/sharedModules/modules/sharedCheckout/templates/receiptSuccess.php
-	"	1	0
-
-> ~/www/default/html/test.ph
-	"	1	0
-
-> ~/Documents/dev/projects/adicio/devops/lib/Adicio/Transaction.php
-	"	1	0
-
-> ~/Documents/dev/projects/adicio/devops/lib/Adicio/NERD_tree_1
-	"	1	0
-	.	1	0
+	+	1	0
+	+	1	0
+	+	1	0
 	+	1	0
 
-> ~/Documents/dev/projects/cc7/devops/apps/siteManager/modules/propManager/actions/actions.class.php
-	"	328	38
-
-> ~/www/default/html/rev.php
-	"	16	0
-	.	17	0
-	+	8	1
-	+	7	51
-	+	8	25
-	+	11	25
-	+	8	9
-	+	8	21
-	+	8	7
-	+	4	21
-	+	8	0
-	+	5	0
-	+	11	15
-	+	7	47
-	+	8	23
-	+	11	24
-	+	8	0
-	+	5	0
-	+	8	0
-	+	6	0
-	+	5	23
-	+	11	0
-	+	5	0
-	+	7	9
-	+	11	5
-	+	7	9
-	+	6	12
-	+	11	0
-	+	6	13
-	+	7	9
-	+	11	4
-	+	7	0
-	+	5	4
-	+	5	21
-	+	6	17
-	+	5	0
-	+	6	12
-	+	5	22
-	+	7	35
-	+	5	24
-	+	7	32
-	+	7	15
-	+	7	46
-	+	6	0
-	+	7	0
-	+	5	21
-	+	6	31
-	+	7	7
-	+	11	0
-	+	7	9
-	+	11	0
-	+	7	21
-	+	11	21
-	+	15	1
-	+	14	4
-	+	13	11
-	+	17	0
-	+	12	0
-	+	13	27
-	+	12	32
-	+	17	8
-	+	4	12
-	+	3	14
-	+	10	11
-	+	17	0
-	+	17	0
-
-> ~/Documents/dev/projects/cc7/rrt/apps/siteManager/modules/reports/actions/statComparisonAction.class.php
+> ~/Box Sync/NERD_tree_19
 	"	17	0
+	.	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
 
-> ~/Documents/dev/projects/cc7/rrt/apps/siteManager/modules/reports/templates/indexSuccess.php
-	"	45	16
+> ~/Box Sync/Jeremy Villegas/work/fermi_CHG1936651/fermi.sh
+	"	43	0
+	^	52	98
+	.	2	0
+	+	11	0
+	+	10	13
+	+	62	1
+	+	63	0
+	+	79	0
+	+	86	0
+	+	97	0
+	+	93	0
+	+	128	0
+	+	61	0
+	+	58	0
+	+	50	1
+	+	50	0
+	+	50	0
+	+	50	0
+	+	50	0
+	+	50	0
+	+	50	0
+	+	50	0
+	+	3	0
+	+	9	0
+	+	2	12
+	+	3	0
+	+	4	0
+	+	5	0
+	+	6	0
+	+	7	0
+	+	8	0
+	+	42	46
+	+	40	0
+	+	44	5
+	+	43	5
+	+	45	5
+	+	52	0
+	+	51	0
+	+	52	0
+	+	53	0
+	+	52	26
+	+	2	0
 
-> ~/Documents/dev/projects/cc7/rrt/apps/siteManager/modules/reports/templates/idn
+> ~/Box Sync/NERD_tree_20
+	"	16	0
+	.	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+
+> ~/Box Sync/Jeremy Villegas/work/fermi_CHG1898164/fermi.sh
+	"	90	0
+	^	69	63
+	.	85	0
+	+	75	6
+	+	79	0
+	+	83	0
+	+	85	0
+	+	87	4
+	+	89	0
+	+	90	3
+	+	91	41
+	+	90	4
+	+	83	4
+	+	85	10
+	+	83	7
+	+	28	41
+	+	28	0
+	+	28	0
+	+	28	0
+	+	28	0
+	+	90	10
+	+	143	23
+	+	148	0
+	+	143	1
+	+	144	41
+	+	147	0
+	+	145	57
+	+	146	39
+	+	139	0
+	+	93	1
+	+	96	0
+	+	96	126
+	+	99	10
+	+	100	0
+	+	101	1
+	+	99	14
+	+	107	0
+	+	95	50
+	+	108	39
+	+	137	0
+	+	136	0
+	+	109	1
+	+	109	0
+	+	109	0
+	+	112	0
+	+	109	0
+	+	108	42
+	+	112	0
+	+	109	36
+	+	110	17
+	+	112	67
+	+	118	0
+	+	112	108
+	+	109	0
+	+	123	0
+	+	122	42
+	+	130	54
+	+	112	115
+	+	114	37
+	+	115	10
+	+	116	52
+	+	116	71
+	+	117	36
+	+	118	0
+	+	117	41
+	+	120	7
+	+	136	0
+	+	132	57
+	+	133	12
+	+	134	0
+	+	28	0
+	+	23	38
+	+	24	10
+	+	24	11
+	+	26	10
+	+	25	13
+	+	27	0
+	+	28	0
+	+	150	33
+	+	154	111
+	+	156	0
+	+	171	0
+	+	170	25
+	+	166	0
+	+	170	0
+	+	20	6
+	+	9	7
+	+	26	18
+	+	51	7
+	+	65	20
+	+	77	20
+	+	90	18
+	+	115	18
+	+	20	0
+	+	45	20
+	+	63	45
+	+	112	102
+	+	154	102
+	+	65	45
+	+	77	45
+	+	69	3
+	+	83	5
+	+	85	0
+	n	33	0
+	w	112	67
+
+> ~/Box Sync/Jeremy Villegas/work/NERD_tree_21
+	"	37	2
+	.	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+
+> ~/Box Sync/Jeremy Villegas/work/NERD_tree_22
+	"	38	2
+	.	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+
+> ~/Box Sync/Jeremy Villegas/work/yahoo_CHG1907201/yahoo.sh
 	"	1	0
+	^	225	0
+	.	224	126
+	+	194	89
+	+	205	0
+	+	204	74
+	+	199	85
+	+	189	0
+	+	187	0
+	+	188	11
+	+	193	15
+	+	203	15
+	+	220	12
+	+	209	0
+	+	210	10
+	+	215	4
+	+	210	10
+	+	215	10
+	+	223	0
+	+	237	0
+	+	223	0
+	+	226	12
+	+	228	12
+	+	230	6
+	+	236	4
+	+	237	0
+	+	234	13
+	+	232	0
+	+	233	0
+	+	232	8
+	+	226	0
+	+	228	54
+	+	253	0
+	+	240	70
+	+	242	0
+	+	245	33
+	+	251	15
+	+	250	3
+	+	251	80
+	+	252	31
+	+	253	0
+	+	255	37
+	+	120	21
+	+	121	0
+	+	159	0
+	+	121	126
+	+	124	17
+	+	125	0
+	+	159	0
+	+	1	0
+	+	129	0
+	+	159	0
+	+	129	52
+	+	130	12
+	+	132	1
+	+	159	0
+	+	120	39
+	+	134	28
+	+	159	28
+	+	135	3
+	+	136	0
+	+	160	33
+	+	161	0
+	+	138	22
+	+	163	22
+	+	84	0
+	+	45	0
+	+	45	266
+	+	45	126
+	+	9	33
+	+	8	30
+	+	130	46
+	+	163	15
+	+	204	77
+	+	228	46
+	+	129	46
+	+	138	15
+	+	199	77
+	+	251	14
+	+	77	7
+	+	72	8
+	+	77	6
+	+	72	0
+	+	100	0
+	+	189	130
+	+	194	130
+	+	199	117
+	+	204	141
+	+	199	141
+	+	204	179
+	+	199	179
+	+	199	77
+	+	204	77
+	+	222	3
+	+	221	0
+	+	232	5
+	+	234	8
+	+	224	0
+	+	224	126
+	+	224	0
+	+	224	266
+	+	224	0
+	+	224	126
+	w	125	0
 
-> ~/Documents/dev/projects/cc7/rrt/apps/siteManager/modules/reports/NERD_tree_1
+> ~/Box Sync/NERD_tree_23
+	"	42	4
+	.	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+
+> ~/Box Sync/Jeremy Villegas/work/yahoo_CHG1907332/yahoo.sh
+	"	76	0
+	^	9	0
+	.	8	0
+	+	2	0
+	+	113	0
+	+	10	0
+	+	10	0
+	+	24	0
+	+	13	0
+	+	28	0
+	+	28	0
+	+	87	0
+	+	87	0
+	+	100	0
+	+	100	0
+	+	101	0
+	+	111	2
+	+	113	0
+	+	112	0
+	+	42	43
+	+	43	33
+	+	43	0
+	+	46	19
+	+	41	36
+	+	41	0
+	+	41	126
+	+	41	0
+	+	41	2
+	+	29	0
+	+	41	0
+	+	34	0
+	+	40	2
+	+	38	4
+	+	28	0
+	+	28	0
+	+	28	0
+	+	28	0
+	+	28	1
+	+	28	1
+	+	28	1
+	+	28	0
+	+	28	0
+	+	28	0
+	+	28	0
+	+	27	0
+	+	79	0
+	+	87	0
+	+	84	0
+	+	84	0
+	+	84	3
+	+	85	27
+	+	50	0
+	+	77	0
+	+	50	38
+	+	15	0
+	+	19	17
+	+	77	0
+	+	50	0
+	+	77	0
+	+	50	103
+	+	25	33
+	+	27	0
+	+	26	0
+	+	27	0
+	+	52	31
+	+	53	0
+	+	74	0
+	+	54	0
+	+	55	41
+	+	56	44
+	+	62	37
+	+	62	0
+	+	69	6
+	+	70	0
+	+	61	49
+	+	62	0
+	+	61	41
+	+	88	0
+	+	100	0
+	+	99	0
+	+	50	109
+	+	92	25
+	+	92	105
+	+	74	88
+	+	75	12
+	+	76	0
+	+	76	0
+	+	76	0
+	+	75	0
+	+	76	0
+	+	74	97
+	+	73	47
+	+	74	2
+	+	91	1
+	+	48	0
+	+	49	0
+	+	8	0
+	w	50	66
+
+> ~/Box Sync/NERD_tree_24
+	"	42	10
+	.	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+
+> ~/Box Sync/Jeremy Villegas/work/NERD_tree_25
+	"	27	2
+	.	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+
+> ~/Box Sync/Jeremy Villegas/work/NERD_tree_26
+	"	26	0
+	.	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+
+> ~/Box Sync/Jeremy Villegas/work/NERD_tree_27
 	"	1	0
 	.	1	0
 	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
 
-> ~/Documents/dev/projects/cc7/devops/batch/stats/Logs/loadLogsWrapper.bash
-	"	15	0
+> ~/Box Sync/Jeremy Villegas/work/NERD_tree_28
+	"	62	4
+	.	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
 
-> ~/Documents/dev/projects/cc7/devops/batch/stats/Logs/loadLogs.bash
-	"	61	0
+> ~/Box Sync/Jeremy Villegas/work/NERD_tree_29
+	"	63	4
+	.	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
 
-> ~/www/nginx/conf/sites-available/default
-	"	68	32
-	^	68	33
-	.	68	32
-	+	69	8
-	+	68	32
-
-> /etc/php5/mods-available/pdo.ini
+> ~/Box Sync/Jeremy Villegas/archive/kpn_CHG1845278/kpn.sh
 	"	1	0
 
-> /etc/php5/fpm/php.ini
-	"	1609	10
-	^	833	30
-	.	833	29
-	+	833	29
+> ~/Box Sync/Jeremy Villegas/work/NERD_tree_30
+	"	26	2
+	.	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
 
-> /etc/php5/NERD_tree_1
+> ~/Box Sync/Jeremy Villegas/work/NERD_tree_31
+	"	28	0
+	.	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+
+> ~/Box Sync/Jeremy Villegas/work/kpn_CHG1911831/kpn.sh
+	"	86	0
+	^	60	3
+	.	76	0
+	+	102	0
+	+	102	151
+	+	102	8
+	+	102	8
+	+	102	22
+	+	102	14
+	+	102	15
+	+	102	0
+	+	102	15
+	+	102	21
+	+	102	0
+	+	102	0
+	+	102	40
+	+	102	12
+	+	102	15
+	+	102	0
+	+	102	239
+	+	102	0
+	+	102	10
+	+	102	0
+	+	9	0
+	+	10	0
+	+	11	0
+	+	13	2
+	+	102	0
+	+	26	16
+	+	28	15
+	+	31	31
+	+	49	12
+	+	54	12
+	+	56	12
+	+	58	0
+	+	16	60
+	+	19	0
+	+	17	15
+	+	19	3
+	+	23	0
+	+	19	13
+	+	23	0
+	+	24	0
+	+	31	0
+	+	102	1
+	+	103	0
+	+	9	0
+	+	7	0
+	+	4	0
+	+	3	8
+	+	5	1
+	+	4	28
+	+	6	13
+	+	54	46
+	+	56	13
+	+	28	0
+	+	29	0
+	+	30	0
+	+	27	0
+	+	21	0
+	+	20	0
+	+	23	0
+	+	18	0
+	+	19	0
+	+	22	0
+	+	36	11
+	+	38	40
+	+	36	12
+	+	54	12
+	+	56	46
+	+	54	13
+	+	61	16
+	+	83	0
+	+	62	0
+	+	61	0
+	+	64	12
+	+	66	0
+	+	68	12
+	+	70	0
+	+	78	2
+	+	68	13
+	+	70	4
+	+	65	0
+	+	66	0
+	+	64	13
+	+	51	0
+	+	49	13
+	+	83	0
+	+	84	62
+	+	85	3
+	+	91	0
+	+	85	32
+	+	86	68
+	+	89	19
+	+	81	0
+	+	42	0
+	+	42	213
+	+	56	0
+	+	60	2
+	+	74	0
+	+	76	0
+	+	74	5
+	+	76	0
+	w	85	3
+
+> ~/Box Sync/Jeremy Villegas/work/NERD_tree_32
+	"	29	2
+	.	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+
+> ~/Box Sync/Jeremy Villegas/work/kpntemp_CHG1916585/kpntemp.sh
+	"	26	0
+	^	36	4
+	.	36	3
+	+	2	0
+	+	4	0
+	+	5	40
+	+	8	126
+	+	18	1
+	+	81	1
+	+	82	0
+	+	125	0
+	+	18	47
+	+	19	0
+	+	24	0
+	+	19	33
+	+	20	22
+	+	24	0
+	+	22	27
+	+	23	59
+	+	27	0
+	+	27	126
+	+	28	10
+	+	29	7
+	+	38	29
+	+	11	0
+	+	10	28
+	+	11	13
+	+	10	8
+	+	10	1
+	+	39	3
+	+	40	33
+	+	41	48
+	+	43	18
+	+	46	0
+	+	44	29
+	+	45	33
+	+	46	16
+	+	47	0
+	+	50	13
+	+	49	15
+	+	50	19
+	+	47	11
+	+	50	36
+	+	55	17
+	+	53	0
+	+	52	15
+	+	56	0
+	+	58	23
+	+	59	0
+	+	64	0
+	+	62	0
+	+	68	0
+	+	65	25
+	+	69	3
+	+	5	49
+	+	14	10
+	+	17	0
+	+	15	7
+	+	10	0
+	+	44	3
+	+	32	0
+	+	32	126
+	+	36	3
+	w	46	0
+
+> ~/Box Sync/Jeremy Villegas/work/NERD_tree_33
+	"	63	4
+	.	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+
+> ~/Box Sync/Jeremy Villegas/work/NERD_tree_34
+	"	62	4
+	.	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+
+> ~/Box Sync/NERD_tree_35
+	"	31	4
+	.	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+
+> ~/Box Sync/NERD_tree_36
+	"	42	4
+	.	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+
+> ~/Box Sync/Jeremy Villegas/work/NERD_tree_37
+	"	13	0
+	.	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+
+> ~/Box Sync/Jeremy Villegas/instance-migration.txt
+	"	69	0
+
+> ~/Box Sync/Jeremy Villegas/work/NERD_tree_38
+	"	13	0
+	.	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+
+> ~/Box Sync/NERD_tree_39
+	"	10	0
+	.	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+
+> ~/Box Sync/Jeremy Villegas/work/cityofventura_CHG1880348/cityofventura.sh
+	"	1	2
+
+> ~/Box Sync/NERD_tree_40
+	"	12	0
+	.	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+
+> ~/Box Sync/Jeremy Villegas/work/NERD_tree_41
 	"	8	0
 	.	1	0
 	+	1	0
 	+	1	0
+	+	1	0
 
-> /etc/php5/fpm/p
-	"	1	0
-
-> /etc/apache2/apache2.conf
-	"	222	0
-	^	164	43
-	.	164	42
-	+	164	0
-	+	169	0
-	+	166	17
-	+	164	42
-
-> ~/Documents/dev/projects/cc7/devops/loadLogs.conf
-	"	1	0
-
-> ~/Documents/dev/projects/cc7/devops/batch/stats/Logs/taskWrapper
-	"	85	38
-
-> ~/Documents/dev/projects/cc7/devops/batch/stats/fly-crontab-l
-	"	77	38
-
-> ~/Documents/dev/projects/cc7/devops/batch/stats/map_logs.bash
-	"	160	0
-
-> ~/Documents/dev/projects/cc7/devops/lib/model/Cc7OrdersPeer.php
-	"	236	39
-
-> ~/Documents/dev/projects/cc7/devops/lib/model/OrdersPeer.php
-	"	1	0
-
-> ~/Documents/dev/test/test.php
-	"	5	0
-	^	5	0
-	.	4	0
-	+	9	28
-	+	7	0
+> ~/Box Sync/Jeremy Villegas/work/dividerprod_INT2742314/dividerprod.sh
+	"	2	2
+	^	7	0
+	.	5	0
+	+	2	0
+	+	94	1
+	+	95	0
+	+	2	0
+	+	8	37
+	+	31	0
+	+	18	0
+	+	18	0
+	+	18	0
+	+	18	18
+	+	18	18
+	+	18	0
+	+	18	0
+	+	18	0
+	+	18	19
+	+	18	0
+	+	18	18
+	+	18	0
+	+	25	0
+	+	19	0
+	+	25	6
+	+	25	0
+	+	25	1
+	+	25	0
+	+	18	0
+	+	13	0
+	+	18	0
+	+	13	0
+	+	9	0
+	+	13	0
+	+	11	0
+	+	26	0
+	+	13	14
+	+	10	0
+	+	14	20
+	+	18	0
+	+	15	20
+	+	16	19
+	+	26	20
+	+	27	0
+	+	31	0
+	+	30	0
+	+	94	0
+	+	31	0
+	+	92	0
+	+	38	20
+	+	49	0
+	+	39	0
+	+	2	12
+	+	3	17
+	+	50	0
+	+	50	0
+	+	47	0
+	+	45	0
+	+	51	0
+	+	52	69
+	+	55	0
+	+	47	0
+	+	65	0
+	+	63	0
+	+	64	15
+	+	66	0
+	+	70	0
+	+	71	0
+	+	71	0
+	+	67	0
+	+	68	10
+	+	70	12
 	+	4	0
+	+	5	20
+	+	53	0
+	+	43	0
+	+	6	9
+	+	4	0
+	+	5	0
+	w	52	60
 
-> ~/Documents/dev/test/test.p
-	"	1	0
+> ~/Box Sync/Jeremy Villegas/work/NERD_tree_42
+	"	8	0
+	.	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
 
-> ~/Downloads/supertab.vmb
-	"	1	0
+> ~/Box Sync/Jeremy Villegas/work/eydevreporting_CHG1865375/eydevreporting.sh
+	"	2	0
+	^	22	3
+	.	159	0
+	+	129	96
+	+	130	35
+	+	70	0
+	+	71	0
+	+	71	0
+	+	57	1
+	+	61	15
+	+	71	14
+	+	72	60
+	+	59	6
+	+	60	0
+	+	58	37
+	+	61	15
+	+	70	4
+	+	62	0
+	+	70	3
+	+	72	89
+	+	72	0
+	+	72	89
+	+	70	4
+	+	69	15
+	+	109	0
+	+	67	33
+	+	75	19
+	+	84	23
+	+	85	0
+	+	87	49
+	+	75	25
+	+	67	25
+	+	87	30
+	+	77	0
+	+	84	8
+	+	86	0
+	+	85	32
+	+	87	59
+	+	109	48
+	+	109	46
+	+	110	0
+	+	111	0
+	+	126	26
+	+	127	0
+	+	132	0
+	+	136	36
+	+	108	0
+	+	92	4
+	+	93	19
+	+	95	21
+	+	102	11
+	+	95	14
+	+	102	12
+	+	98	20
+	+	104	0
+	+	104	0
+	+	100	34
+	+	97	8
+	+	92	8
+	+	103	26
+	+	107	27
+	+	107	26
+	+	107	41
+	+	108	0
+	+	21	15
+	+	2	9
+	+	134	30
+	+	136	30
+	+	4	10
+	+	5	0
+	+	166	0
+	+	64	130
+	+	72	129
+	+	72	0
+	+	72	130
+	+	81	0
+	+	80	141
+	+	87	199
+	+	88	0
+	+	87	0
+	+	87	201
+	+	80	174
+	+	106	0
+	+	107	0
+	+	105	0
+	+	134	84
+	+	136	84
+	+	136	0
+	+	152	44
+	+	153	89
+	+	153	90
+	+	167	1
+	+	168	0
+	+	162	0
+	+	157	0
+	+	154	0
+	+	162	0
+	+	161	40
+	+	162	33
+	+	164	22
+	+	165	23
+	+	160	0
+	+	159	0
+	w	70	3
 
-> ~/.vim/.VimballRecord
-	"	1	0
+> ~/Box Sync/Jeremy Villegas/work/NERD_tree_43
+	"	9	0
+	.	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+
+> ~/Box Sync/Jeremy Villegas/work/eyreporting_CHG1863955/eyreporting.sh
+	"	1	2
+	^	63	0
+	.	63	0
+	+	87	127
+	+	88	152
+	+	89	133
+	+	90	135
+	+	91	193
+	+	92	129
+	+	93	134
+	+	94	127
+	+	95	134
+	+	96	129
+	+	117	0
+	+	98	0
+	+	99	1
+	+	100	33
+	+	101	25
+	+	117	0
+	+	108	0
+	+	109	13
+	+	112	0
+	+	112	113
+	+	114	42
+	+	115	12
+	+	116	0
+	+	117	0
+	+	119	0
+	+	120	21
+	+	121	8
+	+	122	47
+	+	132	0
+	+	127	28
+	+	132	0
+	+	128	0
+	+	132	0
+	+	127	51
+	+	131	108
+	+	134	0
+	+	135	0
+	+	104	45
+	+	105	0
+	+	105	126
+	+	106	14
+	+	36	19
+	+	32	23
+	+	3	15
+	+	7	2
+	+	4	26
+	+	7	0
+	+	6	0
+	+	5	9
+	+	21	0
+	+	193	15
+	+	194	0
+	+	199	3
+	+	205	11
+	+	205	0
+	+	205	113
+	+	211	0
+	+	208	0
+	+	209	0
+	+	210	50
+	+	220	0
+	+	215	0
+	+	218	108
+	+	224	116
+	+	73	0
+	+	72	0
+	+	73	39
+	+	67	26
+	+	70	1
+	+	73	0
+	+	69	0
+	+	68	31
+	+	69	162
+	+	70	0
+	+	71	0
+	+	69	175
+	+	57	22
+	+	59	112
+	+	55	0
+	+	54	11
+	+	55	11
+	+	52	0
+	+	54	10
+	+	55	10
+	+	53	15
+	+	55	15
+	+	56	14
+	+	59	214
+	+	59	0
+	+	59	0
+	+	59	228
+	+	57	0
+	+	58	8
+	+	59	239
+	+	59	112
+	+	64	0
+	+	63	1
+	+	63	0
+	+	70	0
+	+	63	0
+	w	211	0
+
+> ~/Box Sync/Jeremy Villegas/work/NERD_tree_44
+	"	10	0
+	.	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+
+> ~/Box Sync/Jeremy Villegas/work/infosarioprod_CHG1835804/infosarioprod_IQOQ_Checklist_2015-11-19.docx
+	"	44	0
 	.	1	0
 	+	1	0
 
-> ~/.bashrc
+> ~/Box Sync/NERD_tree_45
+	"	9	0
+	.	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+
+> ~/Box Sync/NERD_tree_46
+	"	10	0
+	.	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+
+> ~/Box Sync/NERD_tree_47
+	"	9	0
+	.	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+
+> ~/Box Sync/NERD_tree_48
+	"	7	0
+	.	1	0
+	+	1	0
+	+	1	0
+
+> ~/Box Sync/NERD_tree_49
+	"	15	4
+	.	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+
+> ~/Box Sync/NERD_tree_50
+	"	15	4
+	.	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+
+> ~/Box Sync/NERD_tree_51
+	"	5	0
+	.	1	0
+	+	1	0
+	+	1	0
+
+> ~/Box Sync/Jeremy Villegas/work/NERD_tree_52
+	"	9	0
+	.	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+
+> ~/Box Sync/Jeremy Villegas/work/ibmihgprod_CHG1917050/ibmihgprod.sh
 	"	3	0
-	.	4	0
-	+	4	0
-	+	3	33
-	+	2	22
+	^	26	0
+	.	3	0
 	+	2	0
-	+	3	26
-	+	4	0
+	+	3	0
 
-> ~/Documents/dev/projects/update.sh
+> ~/.vimrc
+	"	70	1
+	^	70	2
+	.	70	1
+	+	94	10
+	+	96	9
+	+	70	1
+
+> ~/.vim/blocks/chgref.txt
+	"	1	5
+	^	1	6
+	.	1	5
+	+	22	0
+	+	22	0
+	+	1	5
+
+> ~/Box Sync/Jeremy Villegas/work/NERD_tree_1
+	"	5	0
+	.	1	0
+	+	1	0
+
+> ~/Box Sync/Jeremy Villegas/work/jnjprod_CHG1845527/jnjprod.sh
+	"	28	0
+
+> ~/Box Sync/Jeremy Villegas/archive/quintiles_CHG1726585/quintiles.sh
+	"	79	114
+
+> ~/.ssh/config
+	"	28	27
+	^	28	28
+	.	28	27
+	+	31	12
+	+	25	15
+	+	28	0
+	+	30	0
+	+	28	27
+
+> ~/Box Sync/Jeremy Villegas/work/microsoftload_CHG1861926/microsoftload.sh
+	"	85	0
+	^	129	76
+	.	129	75
+	+	154	60
+	+	52	17
+	+	59	0
+	+	58	0
+	+	59	0
+	+	58	12
+	+	156	0
+	+	172	0
+	+	161	106
+	+	134	127
+	+	161	126
+	+	162	0
+	+	158	0
+	+	163	15
+	+	164	0
+	+	151	0
+	+	142	0
+	+	151	0
+	+	140	39
+	+	141	0
+	+	142	0
+	+	141	44
+	+	142	96
+	+	167	0
+	+	171	14
+	+	143	0
+	+	144	0
+	+	143	1
+	+	167	1
+	+	166	0
+	+	167	0
+	+	171	15
+	+	171	15
+	+	172	0
+	+	175	130
+	+	58	40
+	+	111	31
+	+	134	0
+	+	134	0
+	+	112	0
+	+	112	0
+	+	117	0
+	+	119	0
+	+	114	0
+	+	120	0
+	+	113	0
+	+	120	0
+	+	125	0
+	+	126	0
+	+	121	0
+	+	127	0
+	+	122	0
+	+	113	0
+	+	134	0
+	+	64	46
+	+	107	59
+	+	154	47
+	+	161	111
+	+	66	46
+	+	104	20
+	+	104	0
+	+	104	0
+	+	78	4
+	+	69	0
+	+	78	15
+	+	104	39
+	+	104	41
+	+	104	38
+	+	104	42
+	+	104	43
+	+	104	39
+	+	104	51
+	+	104	0
+	+	79	0
+	+	104	0
+	+	94	0
+	+	104	4
+	+	104	27
+	+	104	7
+	+	104	0
+	+	104	0
+	+	70	0
+	+	110	0
+	+	95	17
+	+	97	0
+	+	99	39
+	+	96	7
+	+	102	95
+	+	101	0
+	+	102	67
+	+	145	0
+	+	149	0
+	+	148	106
+	+	130	30
+	+	131	8
+	+	132	29
+	+	133	8
+	+	128	43
+	+	128	197
+	+	129	75
+	w	148	35
+
+> ~/Box Sync/Jeremy Villegas/archive/bmsuat_CHG1793373/bmsuat.sh
 	"	1	0
-	^	14	58
-	.	2	33
-	+	6	6
-	+	4	16
-	+	5	11
-	+	6	53
-	+	15	0
-	+	15	0
-	+	15	0
-	+	15	13
-	+	15	8
-	+	15	8
-	+	3	47
-	+	15	50
-	+	15	45
-	+	15	0
+
+> ~/Box Sync/Jeremy Villegas/archive/stagingglobo_CHG1854984/stagingglobo.sh
+	"	7	0
+
+> ~/Box Sync/Jeremy Villegas/archive/anadarko_INT2687498/anadarko.sh
+	"	225	0
+
+> ~/.xvimrc
+	"	16	13
+
+> ~/Desktop/db163150.iad4_2015-11-16_puppet-debug.txt
+	"	1	0
+
+> ~/Box Sync/NERD_tree_3
+	"	16	5
+	.	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+
+> ~/Box Sync/Jeremy Villegas/work/jnjqa2_CHG1853997/jnjqa2.sh
+	"	49	0
+	.	2	0
+	+	112	0
+	+	113	0
+	+	112	74
+	+	110	25
+	+	113	52
+	+	116	0
+	+	115	46
+	+	117	9
+	+	118	18
+	+	126	9
+	+	127	20
+	+	133	36
+	+	127	18
+	+	126	8
+	+	133	22
+	+	117	8
+	+	115	39
+	+	37	7
+	+	37	0
+	+	37	0
+	+	10	8
+	+	12	12
+	+	13	16
+	+	45	16
+	+	46	0
+	+	128	47
+	+	123	18
+	+	56	46
+	+	57	0
+	+	52	23
+	+	51	36
+	+	55	19
+	+	57	0
+	+	56	60
+	+	57	0
+	+	59	0
+	+	58	0
+	+	53	32
+	+	49	67
+	+	91	6
+	+	66	6
+	+	108	20
+	+	112	44
+	+	132	0
+	+	133	0
+	+	134	0
+	+	143	0
+	+	143	0
+	+	141	0
+	+	142	0
+	+	146	106
+	+	22	11
+	+	25	0
+	+	24	0
+	+	19	28
+	+	11	29
+	+	11	0
+	+	26	37
+	+	21	0
+	+	27	18
+	+	28	8
+	+	37	0
+	+	12	0
+	+	13	0
+	+	34	56
+	+	35	0
+	+	34	97
+	+	35	0
+	+	47	9
+	+	3	16
+	+	4	1
 	+	10	0
-	+	8	61
-	+	10	63
-	+	12	57
-	+	14	57
-	+	2	33
+	+	42	46
+	+	59	0
+	+	56	40
+	+	57	0
+	+	57	0
+	+	56	55
+	+	92	0
+	+	106	7
+	+	92	133
+	+	93	109
+	+	94	123
+	+	95	119
+	+	96	111
+	+	97	128
+	+	98	117
+	+	99	111
+	+	100	167
+	+	101	113
+	+	102	117
+	+	103	126
+	+	104	118
+	+	105	129
+	+	128	59
+	+	324	0
+	+	245	1
+	+	246	0
+	+	1	0
+	+	2	0
+	p	124	0
+	w	56	55
 
-> /tmp/test.txt
-	"	48	0
-	^	48	0
-	.	47	25
-	+	1	25
-	+	47	25
+> ~/Box Sync/NERD_tree_4
+	"	16	4
+	.	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
 
-> ~/Documents/github/OmegaRPG/OmegaRPG/build/unix/Asdf.txt
+> ~/Box Sync/Jeremy Villegas/work/microsoft_CHG1861978/microsoft.sh
+	"	11	24
+	^	164	117
+	.	164	116
+	+	142	0
+	+	32	0
+	+	34	8
+	+	36	8
+	+	38	9
+	+	40	5
+	+	42	6
+	+	45	0
+	+	48	0
+	+	48	0
+	+	51	0
+	+	48	0
+	+	51	3
+	+	48	4
+	+	172	1
+	+	173	0
+	+	245	77
+	+	247	0
+	+	246	0
+	+	10	27
+	+	11	12
+	+	12	0
+	+	16	0
+	+	14	0
+	+	22	0
+	+	48	0
+	+	49	0
+	+	51	0
+	+	46	0
+	+	142	0
+	+	52	0
+	+	58	13
+	+	52	110
+	+	64	13
+	+	66	13
+	+	64	13
+	+	68	9
+	+	88	0
+	+	90	0
+	+	90	0
+	+	89	35
+	+	90	17
+	+	91	107
+	+	94	0
+	+	106	0
+	+	103	63
+	+	105	32
+	+	103	67
+	+	103	0
+	+	103	0
+	+	103	100
+	+	103	0
+	+	106	0
+	+	71	8
+	+	72	12
+	+	74	10
+	+	86	8
+	+	84	7
+	+	82	8
+	+	78	0
+	+	79	0
+	+	76	12
+	+	106	0
+	+	106	3
+	+	107	2
+	+	116	6
+	+	128	27
+	+	129	0
+	+	138	6
+	+	137	2
+	+	139	0
+	+	143	0
+	+	142	0
+	+	151	0
+	+	152	0
+	+	144	17
+	+	145	17
+	+	146	13
+	+	146	14
+	+	147	0
+	+	146	60
+	+	156	75
+	+	160	46
+	+	120	42
+	+	123	14
+	+	124	14
+	+	125	44
+	+	156	27
+	+	95	0
+	+	94	25
+	+	99	9
+	+	94	2
+	+	99	40
+	+	94	11
+	+	99	42
+	+	126	12
+	+	149	0
+	+	149	97
+	+	148	72
+	+	164	116
+	w	126	2
+
+> ~/Box Sync/Jeremy Villegas/work/NERD_tree_6
+	"	7	0
+	.	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+
+> ~/Box Sync/Jeremy Villegas/work/microsoft_CHG1864331/microsoft.sh
+	"	66	0
+	^	13	34
+	.	13	33
+	+	106	0
+	+	3	0
+	+	4	47
+	+	15	0
+	+	15	0
+	+	15	0
+	+	7	0
+	+	21	53
+	+	21	0
+	+	21	0
+	+	107	0
+	+	28	0
+	+	16	0
+	+	21	0
+	+	23	0
+	+	22	0
+	+	84	0
+	+	75	0
+	+	83	0
+	+	97	0
+	+	96	116
+	+	9	0
+	+	11	0
+	+	14	0
+	+	9	12
+	+	12	15
+	+	13	46
+	+	12	8
+	+	27	0
+	+	72	59
+	+	24	55
+	+	32	107
+	+	63	46
+	+	78	0
+	+	88	107
+	+	13	33
+
+> ~/Box Sync/Jeremy Villegas/work/NERD_tree_8
+	"	13	0
+	.	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+
+> ~/Box Sync/Jeremy Villegas/work/microsoft_CHG1864267/microsoft.sh
 	"	1	0
+	^	15	34
+	.	15	33
+	+	91	0
+	+	105	0
+	+	102	0
+	+	102	0
+	+	93	0
+	+	92	31
+	+	102	0
+	+	104	29
+	+	107	77
+	+	91	0
+	+	97	0
+	+	104	20
+	+	102	0
+	+	24	0
+	+	28	0
+	+	31	0
+	+	31	126
+	+	31	0
+	+	31	0
+	+	31	126
+	+	65	46
+	+	100	55
+	+	53	0
+	+	67	46
+	+	79	46
+	+	73	0
+	+	73	266
+	+	73	126
+	+	71	1
+	+	87	7
+	+	85	5
+	+	14	33
+	+	15	33
+	w	51	0
 
-> ~/Documents/github/OmegaRPG/OmegaRPG/Omega/src/curses.h
-	"	1	0
-
-> ~/t.txt
-	"	21	0
-	^	21	0
-	.	20	27
-	+	597	49
-	+	20	27
-
-> ~/Downloads/Vagrantfile
-	"	35	0
-
-> ~/Downloads/De_421497E.doc
-	"	100	0
+> ~/Box Sync/NERD_tree_9
+	"	16	0
+	.	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0

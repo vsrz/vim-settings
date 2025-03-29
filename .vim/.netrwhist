@@ -1,8 +1,4 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =6
-let g:netrw_dirhist_1='/mnt/jvillegas/Box Sync/Jeremy Villegas/clients/target_CHG1605764'
+let g:netrw_dirhist_cnt =2
+let g:netrw_dirhist_1='/mnt/jvillegas/Box Sync/Jeremy Villegas/work'
 let g:netrw_dirhist_2='/mnt/jvillegas/Box Sync/Jeremy Villegas'
-let g:netrw_dirhist_3='/www/html/Adicio/Environment'
-let g:netrw_dirhist_4='/mnt/jvillegas/Box Sync/Jeremy Villegas'
-let g:netrw_dirhist_5='/mnt/jvillegas/Box Sync/Jeremy Villegas/IQOQ/thermoqa'
-let g:netrw_dirhist_6='/mnt/jvillegas/Box Sync/Jeremy Villegas/clients/kpn'

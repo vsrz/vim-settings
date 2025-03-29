@@ -5,12 +5,12 @@ set laststatus=2
 set autochdir
 set scrolloff=5
 set expandtab
-set background=dark
 set number
 set incsearch
 set nopaste
 set ignorecase
 set autoindent
+set clipboard=unnamedplus
 "set lazyredraw
 set fileformats=unix,dos
 set comments=sr:/*,mb:*,ex:*/
@@ -22,9 +22,9 @@ set t_Co=256
 
 " Colors
 "let g:slate = 1
-let g:molokai_original = 1
+"let g:molokai_original = 1
 highlight StatusLine ctermbg=white ctermfg=darkgrey
-highlight LineNr ctermfg=darkgrey
+"highlight LineNr ctermfg=darkgrey
 colorscheme molokai
 "
 " minibufexpl.vim settings

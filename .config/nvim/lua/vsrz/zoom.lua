@@ -11,6 +11,9 @@ function Zoom(step)
   vim.cmd(new_guifont)
 end
 
+vim.keymap.set('n', '<C-S-+>', '<cmd>lua Zoom(5)<CR>', { desc = 'Zoom In x5' })
 vim.keymap.set('n', '<C-=>', '<cmd>lua Zoom()<CR>', { desc = 'Zoom In' })
+
+vim.keymap.set('n', '<C-S-_>', '<cmd>lua Zoom(-5)<CR>', { desc = 'Zoom Out x5' })
 vim.keymap.set('n', '<C-->', '<cmd>lua Zoom(-1)<CR>', { desc = 'Zoom Out' })
 
